@@ -1,0 +1,5 @@
+https://www.diymodules.org
+
+http://www.diymodules.org/eagle-show-library?type=usr&id=1012210451&part=telit-modules.lbr
+
+https://app.ultralibrarian.com/search?queryText=ge866

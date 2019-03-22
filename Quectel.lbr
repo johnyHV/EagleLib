@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.2.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Bemassung" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MC60">
+<smd name="LOUDSPKP" x="-5.4" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="LOUDSPKN" x="-4.4" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="VRTC" x="-3.4" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="VBAT1" x="-2.4" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="VBAT" x="-1.4" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GND8" x="-0.4" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GND7" x="0.6" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="NETLIGHT" x="1.6" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="RESERVED8" x="2.6" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GND6" x="3.6" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GND5" x="4.6" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="VDD_EXT" x="5.6" y="9.4" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="PCM_CLK" x="-1.7" y="-4.85" dx="1.1" dy="1.1" layer="1"/>
+<smd name="PCM_OUT" x="0.1" y="-4.85" dx="1.1" dy="1.1" layer="1"/>
+<smd name="PCM_SYNC" x="1.8" y="-4.85" dx="1.1" dy="1.1" layer="1"/>
+<smd name="RESERVED4" x="-3.5" y="-2.6" dx="1.1" dy="1.1" layer="1" rot="R90"/>
+<smd name="RESERVED3" x="-3.5" y="-0.8" dx="1.1" dy="1.1" layer="1" rot="R90"/>
+<smd name="RESERVED2" x="-3.5" y="0.9" dx="1.1" dy="1.1" layer="1" rot="R90"/>
+<smd name="RESERVED" x="-3.5" y="2.7" dx="1.1" dy="1.1" layer="1"/>
+<smd name="PCM_IN" x="3.7" y="-2.6" dx="1.1" dy="1.1" layer="1" rot="R90"/>
+<smd name="RESERVED5" x="3.7" y="-0.8" dx="1.1" dy="1.1" layer="1" rot="R90"/>
+<smd name="RESERVED6" x="3.7" y="0.9" dx="1.1" dy="1.1" layer="1" rot="R90"/>
+<smd name="RESERVED7" x="3.7" y="2.7" dx="1.1" dy="1.1" layer="1"/>
+<smd name="SIM_GND" x="-5.4" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="RESERVED1" x="-4.4" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="SIM1_VDD" x="-3.4" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="SIM1_CLK" x="-2.4" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="SIM1_RST" x="-1.4" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="SIM1_DATA" x="-0.4" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GNSS_TXD" x="0.6" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GNSS_RXD" x="1.6" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="RXD_AUX" x="2.6" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="TXD_AUX" x="3.6" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GNSS_VCC" x="4.6" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="GND1" x="5.6" y="-9.3" dx="0.7" dy="2.1" layer="1" roundness="75"/>
+<smd name="SIM2_RST" x="-8" y="-3.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="SIM2_DATA" x="-8" y="-2.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="SIM2_CLK" x="-8" y="-1.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="SD_DATA" x="-8" y="-0.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="SD_CLK" x="-8" y="0.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="SD_CMD" x="-8" y="1.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="ADC" x="-8" y="2.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="PWRKEY" x="-8" y="3.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="SPKN" x="-8" y="4.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="SPKP" x="-8" y="5.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="MICN" x="-8" y="6.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="MICP" x="-8" y="7.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<wire x1="-8" y1="9.4" x2="8" y2="9.4" width="0.127" layer="20"/>
+<wire x1="8" y1="9.4" x2="8" y2="-9.3" width="0.127" layer="20"/>
+<wire x1="8" y1="-9.3" x2="-8" y2="-9.3" width="0.127" layer="20"/>
+<wire x1="-8" y1="-9.3" x2="-8" y2="8" width="0.127" layer="21"/>
+<smd name="SIM2_VDD" x="-8" y="-4.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="GND" x="-8" y="-5.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="GNSS_ANT" x="-8" y="-6.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="GND2" x="8" y="-3.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="BT_ANT" x="8" y="-2.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="TXD" x="8" y="-1.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="RXD" x="8" y="-0.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="RI" x="8" y="0.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="DCD" x="8" y="1.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="DTR" x="8" y="2.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="CTS" x="8" y="3.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="RTS" x="8" y="4.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="GND3" x="8" y="5.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="RF_ANT" x="8" y="6.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="GND4" x="8" y="7.05" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="DBG_RXD" x="8" y="-4.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="DBG_TXD" x="8" y="-5.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="GNSS_VCC_EN" x="8" y="-6.95" dx="0.7" dy="2.1" layer="1" roundness="75" rot="R90"/>
+<smd name="RESERVED11" x="-1.7" y="4.85" dx="1.1" dy="1.1" layer="1"/>
+<smd name="RESERVED10" x="0.1" y="4.85" dx="1.1" dy="1.1" layer="1"/>
+<smd name="RESERVED9" x="1.8" y="4.85" dx="1.1" dy="1.1" layer="1"/>
+<wire x1="-8" y1="8" x2="-8" y2="9.4" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="6.8" x2="-6.6" y2="6.8" width="0.05" layer="20"/>
+<wire x1="-6.6" y1="6.8" x2="-6.8" y2="7" width="0.05" layer="20"/>
+<wire x1="-6.8" y1="7" x2="-6.8" y2="7.1" width="0.05" layer="20"/>
+<wire x1="-6.8" y1="7.1" x2="-6.6" y2="7.3" width="0.05" layer="20"/>
+<wire x1="-6.6" y1="7.3" x2="-6.2" y2="7.3" width="0.05" layer="20"/>
+<text x="-8" y="10.8" size="0.8128" layer="25">MC60</text>
+<wire x1="-6.55" y1="9.4" x2="-8" y2="8" width="0.127" layer="21"/>
+</package>
+<package name="M66FA-049SD">
+<wire x1="-7.9" y1="7.58" x2="7.9" y2="7.58" width="0.127" layer="51"/>
+<wire x1="7.9" y1="7.58" x2="7.9" y2="-10.12" width="0.127" layer="51"/>
+<wire x1="7.9" y1="-10.12" x2="-7.9" y2="-10.12" width="0.127" layer="51"/>
+<wire x1="-7.9" y1="-10.12" x2="-7.9" y2="7.58" width="0.127" layer="51"/>
+<wire x1="-8.25" y1="7.98" x2="-5" y2="7.98" width="0.05" layer="39"/>
+<wire x1="-5" y1="7.98" x2="-5" y2="8.83" width="0.05" layer="39"/>
+<wire x1="-5" y1="8.83" x2="5" y2="8.83" width="0.05" layer="39"/>
+<wire x1="5" y1="8.83" x2="5" y2="7.98" width="0.05" layer="39"/>
+<wire x1="5" y1="7.98" x2="8.25" y2="7.98" width="0.05" layer="39"/>
+<wire x1="8.25" y1="7.98" x2="8.25" y2="5.98" width="0.05" layer="39"/>
+<wire x1="8.25" y1="5.98" x2="9.15" y2="5.98" width="0.05" layer="39"/>
+<wire x1="9.15" y1="5.98" x2="9.15" y2="-8.52" width="0.05" layer="39"/>
+<wire x1="9.15" y1="-8.52" x2="8.25" y2="-8.52" width="0.05" layer="39"/>
+<wire x1="8.25" y1="-8.52" x2="8.25" y2="-10.52" width="0.05" layer="39"/>
+<wire x1="8.25" y1="-10.52" x2="5" y2="-10.52" width="0.05" layer="39"/>
+<wire x1="5" y1="-10.52" x2="5" y2="-11.37" width="0.05" layer="39"/>
+<wire x1="5" y1="-11.37" x2="-5" y2="-11.37" width="0.05" layer="39"/>
+<wire x1="-5" y1="-11.37" x2="-5" y2="-10.52" width="0.05" layer="39"/>
+<wire x1="-5" y1="-10.52" x2="-8.25" y2="-10.52" width="0.05" layer="39"/>
+<wire x1="-8.25" y1="-10.52" x2="-8.25" y2="-8.52" width="0.05" layer="39"/>
+<wire x1="-8.25" y1="-8.52" x2="-9.15" y2="-8.52" width="0.05" layer="39"/>
+<wire x1="-9.15" y1="-8.52" x2="-9.15" y2="5.98" width="0.05" layer="39"/>
+<wire x1="-9.15" y1="5.98" x2="-8.25" y2="5.98" width="0.05" layer="39"/>
+<wire x1="-8.25" y1="5.98" x2="-8.25" y2="7.98" width="0.05" layer="39"/>
+<text x="-5.0002" y="9.4804" size="1.27005" layer="25">&gt;NAME</text>
+<text x="-5.004259375" y="-12.7798" size="1.27108125" layer="27">&gt;VALUE</text>
+<circle x="-9.5" y="5.33" radius="0.15" width="0.3" layer="21"/>
+<wire x1="-5.05" y1="7.58" x2="-7.9" y2="7.58" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="7.58" x2="-7.9" y2="5.93" width="0.127" layer="21"/>
+<wire x1="5.1" y1="7.58" x2="7.9" y2="7.58" width="0.127" layer="21"/>
+<wire x1="7.9" y1="7.58" x2="7.9" y2="5.98" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-8.52" x2="7.9" y2="-10.12" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-10.12" x2="5" y2="-10.12" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-8.57" x2="-7.9" y2="-10.12" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-10.12" x2="-5.05" y2="-10.12" width="0.127" layer="21"/>
+<polygon width="0.127" layer="39">
+<vertex x="2.5" y="3.88" curve="-90"/>
+<vertex x="4.25" y="5.63"/>
+<vertex x="4.3" y="5.63" curve="-90"/>
+<vertex x="6" y="3.93"/>
+<vertex x="6" y="3.88" curve="-90"/>
+<vertex x="4.25" y="2.13"/>
+<vertex x="4.2" y="2.13" curve="-90"/>
+<vertex x="2.5" y="3.83"/>
+<vertex x="2.5" y="3.78"/>
+</polygon>
+<polygon width="0.127" layer="39">
+<vertex x="2.5" y="-4.72" curve="-90"/>
+<vertex x="4.25" y="-2.97"/>
+<vertex x="4.3" y="-2.97" curve="-90"/>
+<vertex x="6" y="-4.67"/>
+<vertex x="6" y="-4.72" curve="-90"/>
+<vertex x="4.25" y="-6.47"/>
+<vertex x="4.2" y="-6.47" curve="-90"/>
+<vertex x="2.5" y="-4.77"/>
+<vertex x="2.5" y="-4.82"/>
+</polygon>
+<smd name="1" x="-7.65" y="5.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="2" x="-7.65" y="4.23" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="3" x="-7.65" y="3.13" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="4" x="-7.65" y="2.03" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="5" x="-7.65" y="0.93" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="6" x="-7.65" y="-0.17" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="7" x="-7.65" y="-1.27" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="8" x="-7.65" y="-2.37" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="9" x="-7.65" y="-3.47" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="10" x="-7.65" y="-4.57" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="11" x="-7.65" y="-5.67" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="12" x="-7.65" y="-6.77" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="13" x="-7.65" y="-7.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="14" x="-4.4" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="15" x="-3.3" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="16" x="-2.2" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="17" x="-1.1" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="18" x="0" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="19" x="1.1" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="20" x="2.2" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="21" x="3.3" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="22" x="4.4" y="-9.87" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="23" x="7.65" y="-7.87" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="24" x="7.65" y="-6.77" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="25" x="7.65" y="-5.67" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="26" x="7.65" y="-4.57" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="27" x="7.65" y="-3.47" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="28" x="7.65" y="-2.37" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="29" x="7.65" y="-1.27" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="30" x="7.65" y="-0.17" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="31" x="7.65" y="0.93" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="32" x="7.65" y="2.03" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="33" x="7.65" y="3.13" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="34" x="7.65" y="4.23" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="35" x="7.65" y="5.33" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="36" x="4.4" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="37" x="3.3" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="38" x="2.2" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="39" x="1.1" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="40" x="0" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="41" x="-1.1" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="42" x="-2.2" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="43" x="-3.3" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="44" x="-4.4" y="7.33" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+</package>
+<package name="M66">
+<wire x1="-7.9" y1="8.85" x2="7.9" y2="8.85" width="0.127" layer="51"/>
+<wire x1="7.9" y1="8.85" x2="7.9" y2="-8.85" width="0.127" layer="51"/>
+<wire x1="7.9" y1="-8.85" x2="-7.9" y2="-8.85" width="0.127" layer="51"/>
+<wire x1="-7.9" y1="-8.85" x2="-7.9" y2="8.85" width="0.127" layer="51"/>
+<wire x1="-8.25" y1="9.25" x2="-5" y2="9.25" width="0.05" layer="39"/>
+<wire x1="-5" y1="9.25" x2="-5" y2="10.1" width="0.05" layer="39"/>
+<wire x1="-5" y1="10.1" x2="5" y2="10.1" width="0.05" layer="39"/>
+<wire x1="5" y1="10.1" x2="5" y2="9.25" width="0.05" layer="39"/>
+<wire x1="5" y1="9.25" x2="8.25" y2="9.25" width="0.05" layer="39"/>
+<wire x1="8.25" y1="9.25" x2="8.25" y2="7.25" width="0.05" layer="39"/>
+<wire x1="8.25" y1="7.25" x2="9.15" y2="7.25" width="0.05" layer="39"/>
+<wire x1="9.15" y1="7.25" x2="9.15" y2="-7.25" width="0.05" layer="39"/>
+<wire x1="9.15" y1="-7.25" x2="8.25" y2="-7.25" width="0.05" layer="39"/>
+<wire x1="8.25" y1="-7.25" x2="8.25" y2="-9.25" width="0.05" layer="39"/>
+<wire x1="8.25" y1="-9.25" x2="5" y2="-9.25" width="0.05" layer="39"/>
+<wire x1="5" y1="-9.25" x2="5" y2="-10.1" width="0.05" layer="39"/>
+<wire x1="5" y1="-10.1" x2="-5" y2="-10.1" width="0.05" layer="39"/>
+<wire x1="-5" y1="-10.1" x2="-5" y2="-9.25" width="0.05" layer="39"/>
+<wire x1="-5" y1="-9.25" x2="-8.25" y2="-9.25" width="0.05" layer="39"/>
+<wire x1="-8.25" y1="-9.25" x2="-8.25" y2="-7.25" width="0.05" layer="39"/>
+<wire x1="-8.25" y1="-7.25" x2="-9.15" y2="-7.25" width="0.05" layer="39"/>
+<wire x1="-9.15" y1="-7.25" x2="-9.15" y2="7.25" width="0.05" layer="39"/>
+<wire x1="-9.15" y1="7.25" x2="-8.25" y2="7.25" width="0.05" layer="39"/>
+<wire x1="-8.25" y1="7.25" x2="-8.25" y2="9.25" width="0.05" layer="39"/>
+<text x="-5.0002" y="10.7504" size="1.27005" layer="25">&gt;NAME</text>
+<text x="-5.004259375" y="-11.5098" size="1.27108125" layer="27">&gt;VALUE</text>
+<circle x="-9.5" y="6.6" radius="0.15" width="0.3" layer="21"/>
+<wire x1="-5.05" y1="8.85" x2="-7.9" y2="8.85" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="8.85" x2="-7.9" y2="7.2" width="0.127" layer="21"/>
+<wire x1="5.1" y1="8.85" x2="7.9" y2="8.85" width="0.127" layer="21"/>
+<wire x1="7.9" y1="8.85" x2="7.9" y2="7.25" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-7.25" x2="7.9" y2="-8.85" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-8.85" x2="5" y2="-8.85" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-7.3" x2="-7.9" y2="-8.85" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-8.85" x2="-5.05" y2="-8.85" width="0.127" layer="21"/>
+<smd name="AGND" x="-7.65" y="6.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SPK2P" x="-7.65" y="5.5" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="MICP" x="-7.65" y="4.4" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="MICN" x="-7.65" y="3.3" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SPK1P" x="-7.65" y="2.2" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SPK1N" x="-7.65" y="1.1" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="PWRKEY" x="-7.65" y="0" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="AVDD" x="-7.65" y="-1.1" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="ADC0" x="-7.65" y="-2.2" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SIM_GND" x="-7.65" y="-3.3" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SIM_DATA" x="-7.65" y="-4.4" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SIM_RST" x="-7.65" y="-5.5" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SIM_CLK" x="-7.65" y="-6.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="SIM_VDD" x="-4.4" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RESERVED" x="-3.3" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="NETLIGHT" x="-2.2" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="TXD" x="-1.1" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RXD" x="0" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="DTR" x="1.1" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RI" x="2.2" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="DCD" x="3.3" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="CTS" x="4.4" y="-8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RTS" x="7.65" y="-6.6" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="VDD_EXT" x="7.65" y="-5.5" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RFTXMON" x="7.65" y="-4.4" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="BT_ANT" x="7.65" y="-3.3" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="GND6" x="7.65" y="-2.2" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RXD_AUX" x="7.65" y="-1.1" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="TXD_AUX" x="7.65" y="0" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="PCM_CLK" x="7.65" y="1.1" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="PCM_SYNC" x="7.65" y="2.2" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="PCM_IN" x="7.65" y="3.3" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="PCM_OUT" x="7.65" y="4.4" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="GND5" x="7.65" y="5.5" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RF_ANT" x="7.65" y="6.6" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="GND4" x="4.4" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="GND3" x="3.3" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="DBG_RXD" x="2.2" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="DBG_TXD" x="1.1" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="GND2" x="0" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="GND1" x="-1.1" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="VBAT2" x="-2.2" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="VBAT1" x="-3.3" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="VRTC" x="-4.4" y="8.6" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+</package>
+<package name="BC68">
+<wire x1="0.99" y1="17.74" x2="16.79" y2="17.74" width="0.127" layer="51"/>
+<wire x1="16.79" y1="17.74" x2="16.79" y2="0.04" width="0.127" layer="51"/>
+<wire x1="16.79" y1="0.04" x2="0.99" y2="0.04" width="0.127" layer="51"/>
+<wire x1="0.99" y1="0.04" x2="0.99" y2="17.74" width="0.127" layer="51"/>
+<wire x1="0.64" y1="18.14" x2="3.89" y2="18.14" width="0.05" layer="39"/>
+<wire x1="3.89" y1="18.14" x2="3.89" y2="18.99" width="0.05" layer="39"/>
+<wire x1="3.89" y1="18.99" x2="13.89" y2="18.99" width="0.05" layer="39"/>
+<wire x1="13.89" y1="18.99" x2="13.89" y2="18.14" width="0.05" layer="39"/>
+<wire x1="13.89" y1="18.14" x2="17.14" y2="18.14" width="0.05" layer="39"/>
+<wire x1="17.14" y1="18.14" x2="17.14" y2="16.14" width="0.05" layer="39"/>
+<wire x1="17.14" y1="16.14" x2="18.04" y2="16.14" width="0.05" layer="39"/>
+<wire x1="18.04" y1="16.14" x2="18.04" y2="1.64" width="0.05" layer="39"/>
+<wire x1="18.04" y1="1.64" x2="17.14" y2="1.64" width="0.05" layer="39"/>
+<wire x1="17.14" y1="1.64" x2="17.14" y2="-0.36" width="0.05" layer="39"/>
+<wire x1="17.14" y1="-0.36" x2="13.89" y2="-0.36" width="0.05" layer="39"/>
+<wire x1="13.89" y1="-0.36" x2="13.89" y2="-1.21" width="0.05" layer="39"/>
+<wire x1="13.89" y1="-1.21" x2="3.89" y2="-1.21" width="0.05" layer="39"/>
+<wire x1="3.89" y1="-1.21" x2="3.89" y2="-0.36" width="0.05" layer="39"/>
+<wire x1="3.89" y1="-0.36" x2="0.64" y2="-0.36" width="0.05" layer="39"/>
+<wire x1="0.64" y1="-0.36" x2="0.64" y2="1.64" width="0.05" layer="39"/>
+<wire x1="0.64" y1="1.64" x2="-0.26" y2="1.64" width="0.05" layer="39"/>
+<wire x1="-0.26" y1="1.64" x2="-0.26" y2="16.14" width="0.05" layer="39"/>
+<wire x1="-0.26" y1="16.14" x2="0.64" y2="16.14" width="0.05" layer="39"/>
+<wire x1="0.64" y1="16.14" x2="0.64" y2="18.14" width="0.05" layer="39"/>
+<text x="3.8898" y="19.6404" size="1.27005" layer="25">&gt;NAME</text>
+<text x="3.885740625" y="-2.6198" size="1.27108125" layer="27">&gt;VALUE</text>
+<circle x="-0.61" y="15.49" radius="0.15" width="0.3" layer="21"/>
+<wire x1="3.84" y1="17.74" x2="0.99" y2="17.74" width="0.127" layer="21"/>
+<wire x1="0.99" y1="17.74" x2="0.99" y2="16.09" width="0.127" layer="21"/>
+<wire x1="13.99" y1="17.74" x2="16.79" y2="17.74" width="0.127" layer="21"/>
+<wire x1="16.79" y1="17.74" x2="16.79" y2="16.14" width="0.127" layer="21"/>
+<wire x1="16.79" y1="1.64" x2="16.79" y2="0.04" width="0.127" layer="21"/>
+<wire x1="16.79" y1="0.04" x2="13.89" y2="0.04" width="0.127" layer="21"/>
+<wire x1="0.99" y1="1.59" x2="0.99" y2="0.04" width="0.127" layer="21"/>
+<wire x1="0.99" y1="0.04" x2="3.84" y2="0.04" width="0.127" layer="21"/>
+<smd name="GND7" x="1.24" y="15.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED20" x="1.24" y="14.39" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED19" x="1.24" y="13.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED18" x="1.24" y="12.19" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED17" x="1.24" y="11.09" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED16" x="1.24" y="9.99" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED15" x="1.24" y="8.89" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED14" x="1.24" y="7.79" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="ADC" x="1.24" y="6.69" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="USIM_GND" x="1.24" y="5.59" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="USIM_DATA" x="1.24" y="4.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="USIM_RST" x="1.24" y="3.39" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="USIM_CLK" x="1.24" y="2.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R180"/>
+<smd name="USIM_VDD" x="4.49" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RESET" x="5.59" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="NETLIGHT" x="6.69" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="TXD" x="7.79" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RXD" x="8.89" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RESERVED13" x="9.99" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RI" x="11.09" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RESERVED12" x="12.19" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RESERVED11" x="13.29" y="0.29" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R270"/>
+<smd name="RESERVED10" x="16.54" y="2.29" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="VDD_EXT" x="16.54" y="3.39" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED9" x="16.54" y="4.49" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED8" x="16.54" y="5.59" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="GND6" x="16.54" y="6.69" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED7" x="16.54" y="7.79" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED6" x="16.54" y="8.89" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED5" x="16.54" y="9.99" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED4" x="16.54" y="11.09" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED3" x="16.54" y="12.19" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RESERVED2" x="16.54" y="13.29" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="GND5" x="16.54" y="14.39" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="RF_ANT" x="16.54" y="15.49" dx="2.5" dy="0.7" layer="1" roundness="50"/>
+<smd name="GND4" x="13.29" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="GND3" x="12.19" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="DBG_RXD" x="11.09" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="DBG_TXD" x="9.99" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="GND2" x="8.89" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="GND1" x="7.79" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="VBAT2" x="6.69" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="VBAT1" x="5.59" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="RESERVED1" x="4.49" y="17.49" dx="2.5" dy="0.7" layer="1" roundness="50" rot="R90"/>
+<smd name="RESERVED22" x="8.89" y="13.39" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED23" x="10.69" y="13.39" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED21" x="7.09" y="13.39" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED30" x="7.09" y="4.39" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED29" x="8.89" y="4.39" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED28" x="10.69" y="4.39" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED27" x="12.49" y="6.19" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED26" x="12.49" y="7.99" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED25" x="12.49" y="9.79" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED24" x="12.49" y="11.59" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED34" x="5.29" y="11.59" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED33" x="5.29" y="9.79" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED32" x="5.29" y="7.99" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+<smd name="RESERVED31" x="5.29" y="6.19" dx="1" dy="1" layer="1" roundness="50" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MC60">
+<pin name="MICP" x="-43.18" y="43.18" visible="pad" length="middle"/>
+<pin name="MICN" x="-43.18" y="38.1" visible="pad" length="middle"/>
+<pin name="SPKP" x="-43.18" y="33.02" visible="pad" length="middle"/>
+<pin name="SPKN" x="-43.18" y="27.94" visible="pad" length="middle"/>
+<pin name="PWRKEY" x="-43.18" y="22.86" visible="pad" length="middle"/>
+<pin name="ADC" x="-43.18" y="17.78" visible="pad" length="middle"/>
+<pin name="SD_CMD" x="-43.18" y="12.7" visible="pad" length="middle"/>
+<pin name="SD_CLK" x="-43.18" y="7.62" visible="pad" length="middle"/>
+<pin name="SD_DATA" x="-43.18" y="2.54" visible="pad" length="middle"/>
+<pin name="SIM2_CLK" x="-43.18" y="-2.54" visible="pad" length="middle"/>
+<pin name="SIM2_DATA" x="-43.18" y="-7.62" visible="pad" length="middle"/>
+<pin name="SIM2_RST" x="-43.18" y="-12.7" visible="pad" length="middle"/>
+<pin name="SIM2_VDD" x="-43.18" y="-17.78" visible="pad" length="middle"/>
+<pin name="GND" x="-43.18" y="-22.86" visible="pad" length="middle"/>
+<pin name="GNSS_ANT" x="-43.18" y="-27.94" visible="pad" length="middle"/>
+<pin name="RESERVED" x="-43.18" y="-33.02" visible="pad" length="middle"/>
+<pin name="SIM_GND" x="-35.56" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="SIM1_VDD" x="-25.4" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="SIM1_CLK" x="-20.32" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="SIM1_RST" x="-15.24" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="SIM1_DATA" x="-10.16" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="GNSS_TXD" x="-5.08" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="GNSS_RXD" x="0" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="RXD_AUX" x="5.08" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="TXD_AUX" x="10.16" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="GNSS_VCC" x="15.24" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="GNSS_VCC_EN" x="43.18" y="-48.26" visible="pad" length="middle" rot="R180"/>
+<pin name="DBG_TXD" x="43.18" y="-43.18" visible="pad" length="middle" rot="R180"/>
+<pin name="DBG_RXD" x="43.18" y="-38.1" visible="pad" length="middle" rot="R180"/>
+<pin name="BT_ANT" x="43.18" y="-27.94" visible="pad" length="middle" rot="R180"/>
+<pin name="TXD" x="43.18" y="-22.86" visible="pad" length="middle" rot="R180"/>
+<pin name="RXD" x="43.18" y="-17.78" visible="pad" length="middle" rot="R180"/>
+<pin name="RI" x="43.18" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="DCD" x="43.18" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="DTR" x="43.18" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="CTS" x="43.18" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="RTS" x="43.18" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="RF_ANT" x="43.18" y="17.78" visible="pad" length="middle" rot="R180"/>
+<pin name="VDD_EXT" x="35.56" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="NETLIGHT" x="15.24" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="VBAT" x="0" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="VRTC" x="-10.16" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="LOUDSPKN" x="-15.24" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="LOUDSPKP" x="-20.32" y="50.8" visible="pad" length="middle" rot="R270"/>
+<wire x1="-38.1" y1="45.72" x2="38.1" y2="45.72" width="0.254" layer="94"/>
+<wire x1="38.1" y1="45.72" x2="38.1" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-50.8" x2="-38.1" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-50.8" x2="-38.1" y2="45.72" width="0.254" layer="94"/>
+<pin name="RESERVED1" x="-30.48" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="GND1" x="20.32" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="PCM_CLK" x="25.4" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="PCM_OUT" x="30.48" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="PCM_SYNC" x="35.56" y="-55.88" visible="pad" length="middle" rot="R90"/>
+<pin name="GND2" x="43.18" y="-33.02" visible="pad" length="middle" rot="R180"/>
+<pin name="GND3" x="43.18" y="12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="GND4" x="43.18" y="22.86" visible="pad" length="middle" rot="R180"/>
+<pin name="RESERVED2" x="-43.18" y="-38.1" visible="pad" length="middle"/>
+<pin name="RESERVED3" x="-43.18" y="-43.18" visible="pad" length="middle"/>
+<pin name="RESERVED4" x="-43.18" y="-48.26" visible="pad" length="middle"/>
+<pin name="PCM_IN" x="43.18" y="27.94" visible="pad" length="middle" rot="R180"/>
+<pin name="RESERVED5" x="43.18" y="33.02" visible="pad" length="middle" rot="R180"/>
+<pin name="RESERVED6" x="43.18" y="38.1" visible="pad" length="middle" rot="R180"/>
+<pin name="RESERVED7" x="43.18" y="43.18" visible="pad" length="middle" rot="R180"/>
+<pin name="GND5" x="30.48" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="GND6" x="25.4" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="RESERVED8" x="20.32" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="GND7" x="10.16" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="GND8" x="5.08" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="VBAT1" x="-5.08" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="RESERVED9" x="-25.4" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="RESERVED10" x="-30.48" y="50.8" visible="pad" length="middle" rot="R270"/>
+<pin name="RESERVED11" x="-35.56" y="50.8" visible="pad" length="middle" rot="R270"/>
+</symbol>
+<symbol name="M66FA-04-STD">
+<wire x1="-20.32" y1="35.56" x2="-20.32" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-40.64" x2="17.78" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-40.64" x2="17.78" y2="35.56" width="0.254" layer="94"/>
+<wire x1="17.78" y1="35.56" x2="-20.32" y2="35.56" width="0.254" layer="94"/>
+<text x="-20.3238" y="35.5672" size="1.77833125" layer="95">&gt;NAME</text>
+<text x="-20.3605" y="-43.2611" size="1.78155" layer="96">&gt;VALUE</text>
+<pin name="AGND" x="20.32" y="-35.56" length="short" direction="pwr" rot="R180"/>
+<pin name="SPK2P" x="-22.86" y="22.86" length="short" direction="out"/>
+<pin name="MICP" x="-22.86" y="33.02" length="short" direction="in"/>
+<pin name="MICN" x="-22.86" y="30.48" length="short" direction="in"/>
+<pin name="SPK1P" x="-22.86" y="27.94" length="short" direction="out"/>
+<pin name="SPK1N" x="-22.86" y="25.4" length="short" direction="out"/>
+<pin name="PWRKEY" x="-22.86" y="-17.78" length="short" direction="in"/>
+<pin name="AVDD" x="20.32" y="30.48" length="short" direction="pwr" rot="R180"/>
+<pin name="ADC0" x="-22.86" y="-12.7" length="short" direction="in"/>
+<pin name="SIM_GND" x="20.32" y="-38.1" length="short" direction="pwr" rot="R180"/>
+<pin name="SIM_DATA" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="SIM_RST" x="20.32" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="SIM_CLK" x="20.32" y="15.24" length="short" direction="out" function="clk" rot="R180"/>
+<pin name="SIM_VDD" x="20.32" y="22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="NETLIGHT" x="20.32" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="TXD" x="-22.86" y="17.78" length="short" direction="out"/>
+<pin name="RXD" x="-22.86" y="15.24" length="short" direction="in"/>
+<pin name="DTR" x="-22.86" y="12.7" length="short" direction="in"/>
+<pin name="RI" x="-22.86" y="10.16" length="short" direction="out"/>
+<pin name="DCD" x="-22.86" y="7.62" length="short" direction="out"/>
+<pin name="CTS" x="-22.86" y="5.08" length="short" direction="out"/>
+<pin name="RTS" x="-22.86" y="2.54" length="short" direction="in"/>
+<pin name="VDD_EXT" x="20.32" y="27.94" length="short" direction="pwr" rot="R180"/>
+<pin name="RFTXMON" x="20.32" y="-15.24" length="short" direction="out" rot="R180"/>
+<pin name="BT_ANT" x="-22.86" y="-2.54" length="short"/>
+<pin name="GND" x="20.32" y="-33.02" length="short" direction="pwr" rot="R180"/>
+<pin name="RXD_AUX" x="20.32" y="-20.32" length="short" direction="in" rot="R180"/>
+<pin name="TXD_AUX" x="20.32" y="-20.32" length="short" direction="out" rot="R180"/>
+<pin name="PCM_CLK" x="20.32" y="2.54" length="short" direction="out" function="clk" rot="R180"/>
+<pin name="PCM_SYNC" x="20.32" y="0" length="short" direction="out" rot="R180"/>
+<pin name="PCM_IN" x="20.32" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="PCM_OUT" x="20.32" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="RF_ANT" x="-22.86" y="-5.08" length="short"/>
+<pin name="DBG_TXD" x="-22.86" y="-33.02" length="short" direction="out"/>
+<pin name="DBG_RXD" x="-22.86" y="-35.56" length="short" direction="in"/>
+<pin name="VBAT" x="20.32" y="33.02" length="short" direction="pwr" rot="R180"/>
+<pin name="VRTC" x="20.32" y="25.4" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="M66">
+<wire x1="-20.32" y1="35.56" x2="-20.32" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-40.64" x2="17.78" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-40.64" x2="17.78" y2="35.56" width="0.254" layer="94"/>
+<wire x1="17.78" y1="35.56" x2="-20.32" y2="35.56" width="0.254" layer="94"/>
+<text x="-20.3238" y="35.5672" size="1.77833125" layer="95">&gt;NAME</text>
+<text x="-20.3605" y="-43.2611" size="1.78155" layer="96">&gt;VALUE</text>
+<pin name="AGND" x="20.32" y="-35.56" length="short" direction="pwr" rot="R180"/>
+<pin name="SPK2P" x="-22.86" y="22.86" length="short" direction="out"/>
+<pin name="MICP" x="-22.86" y="33.02" length="short" direction="in"/>
+<pin name="MICN" x="-22.86" y="30.48" length="short" direction="in"/>
+<pin name="SPK1P" x="-22.86" y="27.94" length="short" direction="out"/>
+<pin name="SPK1N" x="-22.86" y="25.4" length="short" direction="out"/>
+<pin name="PWRKEY" x="-22.86" y="-17.78" length="short" direction="in"/>
+<pin name="AVDD" x="20.32" y="30.48" length="short" direction="pwr" rot="R180"/>
+<pin name="ADC0" x="-22.86" y="-12.7" length="short" direction="in"/>
+<pin name="SIM_GND" x="20.32" y="-38.1" length="short" direction="pwr" rot="R180"/>
+<pin name="SIM_DATA" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="SIM_RST" x="20.32" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="SIM_CLK" x="20.32" y="15.24" length="short" direction="out" function="clk" rot="R180"/>
+<pin name="SIM_VDD" x="20.32" y="22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="NETLIGHT" x="20.32" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="TXD" x="-22.86" y="17.78" length="short" direction="out"/>
+<pin name="RXD" x="-22.86" y="15.24" length="short" direction="in"/>
+<pin name="DTR" x="-22.86" y="12.7" length="short" direction="in"/>
+<pin name="RI" x="-22.86" y="10.16" length="short" direction="out"/>
+<pin name="DCD" x="-22.86" y="7.62" length="short" direction="out"/>
+<pin name="CTS" x="-22.86" y="5.08" length="short" direction="out"/>
+<pin name="RTS" x="-22.86" y="2.54" length="short" direction="in"/>
+<pin name="VDD_EXT" x="20.32" y="27.94" length="short" direction="pwr" rot="R180"/>
+<pin name="RFTXMON" x="20.32" y="-15.24" length="short" direction="out" rot="R180"/>
+<pin name="BT_ANT" x="-22.86" y="-2.54" length="short"/>
+<pin name="GND" x="20.32" y="-33.02" length="short" direction="pwr" rot="R180"/>
+<pin name="RXD_AUX" x="20.32" y="-20.32" length="short" direction="in" rot="R180"/>
+<pin name="TXD_AUX" x="20.32" y="-20.32" length="short" direction="out" rot="R180"/>
+<pin name="PCM_CLK" x="20.32" y="2.54" length="short" direction="out" function="clk" rot="R180"/>
+<pin name="PCM_SYNC" x="20.32" y="0" length="short" direction="out" rot="R180"/>
+<pin name="PCM_IN" x="20.32" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="PCM_OUT" x="20.32" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="RF_ANT" x="-22.86" y="-5.08" length="short"/>
+<pin name="DBG_TXD" x="-22.86" y="-33.02" length="short" direction="out"/>
+<pin name="DBG_RXD" x="-22.86" y="-35.56" length="short" direction="in"/>
+<pin name="VBAT" x="20.32" y="33.02" length="short" direction="pwr" rot="R180"/>
+<pin name="VRTC" x="20.32" y="25.4" length="short" direction="pwr" rot="R180"/>
+<pin name="RESERVED" x="20.32" y="-27.94" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="BC68">
+<wire x1="-17.78" y1="35.56" x2="-17.78" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-40.64" x2="20.32" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-40.64" x2="20.32" y2="35.56" width="0.254" layer="94"/>
+<wire x1="20.32" y1="35.56" x2="-17.78" y2="35.56" width="0.254" layer="94"/>
+<text x="-17.7838" y="35.5672" size="1.77833125" layer="95">&gt;NAME</text>
+<text x="-17.8205" y="-43.2611" size="1.78155" layer="96">&gt;VALUE</text>
+<pin name="ADC" x="-20.32" y="5.08" length="short" direction="in"/>
+<pin name="SIM_GND" x="-20.32" y="12.7" length="short" direction="pwr"/>
+<pin name="SIM_DATA" x="-20.32" y="17.78" length="short"/>
+<pin name="SIM_RST" x="-20.32" y="15.24" length="short" direction="out"/>
+<pin name="SIM_CLK" x="-20.32" y="20.32" length="short" direction="out" function="clk"/>
+<pin name="SIM_VDD" x="-20.32" y="22.86" length="short" direction="pwr"/>
+<pin name="NETLIGHT" x="-20.32" y="7.62" length="short" direction="out"/>
+<pin name="TXD" x="-20.32" y="-5.08" length="short" direction="out"/>
+<pin name="RXD" x="-20.32" y="-7.62" length="short" direction="in"/>
+<pin name="RI" x="-20.32" y="-10.16" length="short" direction="out"/>
+<pin name="VDD_EXT" x="-20.32" y="-27.94" length="short" direction="pwr"/>
+<pin name="GND" x="-20.32" y="-38.1" length="short" direction="pwr"/>
+<pin name="RF_ANT" x="-20.32" y="33.02" length="short"/>
+<pin name="DBG_TXD" x="-20.32" y="-17.78" length="short" direction="out"/>
+<pin name="DBG_RXD" x="-20.32" y="-20.32" length="short" direction="in"/>
+<pin name="VBAT" x="-20.32" y="-30.48" length="short" direction="pwr"/>
+<pin name="RESERVED1" x="22.86" y="33.02" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED2" x="22.86" y="30.48" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED3" x="22.86" y="27.94" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED4" x="22.86" y="25.4" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED5" x="22.86" y="22.86" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED6" x="22.86" y="20.32" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED7" x="22.86" y="17.78" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED8" x="22.86" y="15.24" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED9" x="22.86" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED10" x="22.86" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED11" x="22.86" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED12" x="22.86" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED13" x="22.86" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED14" x="22.86" y="0" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED15" x="22.86" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED16" x="22.86" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED17" x="22.86" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED18" x="22.86" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED19" x="22.86" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED20" x="22.86" y="-15.24" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED21" x="22.86" y="-17.78" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED22" x="22.86" y="-20.32" length="short" direction="out" rot="R180"/>
+<pin name="RESET" x="-20.32" y="2.54" length="short" direction="out"/>
+<pin name="RESERVED23" x="22.86" y="-22.86" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED24" x="22.86" y="-25.4" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED25" x="22.86" y="-27.94" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED26" x="22.86" y="-30.48" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED27" x="22.86" y="-33.02" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED28" x="22.86" y="-35.56" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED29" x="22.86" y="-38.1" length="short" direction="out" rot="R180"/>
+<pin name="RESERVED30" x="0" y="38.1" length="short" direction="out" rot="R270"/>
+<pin name="RESERVED31" x="2.54" y="38.1" length="short" direction="out" rot="R270"/>
+<pin name="RESERVED32" x="-2.54" y="-43.18" length="short" direction="out" rot="R90"/>
+<pin name="RESERVED33" x="0" y="-43.18" length="short" direction="out" rot="R90"/>
+<pin name="RESERVED34" x="2.54" y="-43.18" length="short" direction="out" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MC60">
+<gates>
+<gate name="G$1" symbol="MC60" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="MC60">
+<connects>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="BT_ANT" pad="BT_ANT"/>
+<connect gate="G$1" pin="CTS" pad="CTS"/>
+<connect gate="G$1" pin="DBG_RXD" pad="DBG_RXD"/>
+<connect gate="G$1" pin="DBG_TXD" pad="DBG_TXD"/>
+<connect gate="G$1" pin="DCD" pad="DCD"/>
+<connect gate="G$1" pin="DTR" pad="DTR"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="GND4" pad="GND4"/>
+<connect gate="G$1" pin="GND5" pad="GND5"/>
+<connect gate="G$1" pin="GND6" pad="GND6"/>
+<connect gate="G$1" pin="GND7" pad="GND7"/>
+<connect gate="G$1" pin="GND8" pad="GND8"/>
+<connect gate="G$1" pin="GNSS_ANT" pad="GNSS_ANT"/>
+<connect gate="G$1" pin="GNSS_RXD" pad="GNSS_RXD"/>
+<connect gate="G$1" pin="GNSS_TXD" pad="GNSS_TXD"/>
+<connect gate="G$1" pin="GNSS_VCC" pad="GNSS_VCC"/>
+<connect gate="G$1" pin="GNSS_VCC_EN" pad="GNSS_VCC_EN"/>
+<connect gate="G$1" pin="LOUDSPKN" pad="LOUDSPKN"/>
+<connect gate="G$1" pin="LOUDSPKP" pad="LOUDSPKP"/>
+<connect gate="G$1" pin="MICN" pad="MICN"/>
+<connect gate="G$1" pin="MICP" pad="MICP"/>
+<connect gate="G$1" pin="NETLIGHT" pad="NETLIGHT"/>
+<connect gate="G$1" pin="PCM_CLK" pad="PCM_CLK"/>
+<connect gate="G$1" pin="PCM_IN" pad="PCM_IN"/>
+<connect gate="G$1" pin="PCM_OUT" pad="PCM_OUT"/>
+<connect gate="G$1" pin="PCM_SYNC" pad="PCM_SYNC"/>
+<connect gate="G$1" pin="PWRKEY" pad="PWRKEY"/>
+<connect gate="G$1" pin="RESERVED" pad="RESERVED"/>
+<connect gate="G$1" pin="RESERVED1" pad="RESERVED1"/>
+<connect gate="G$1" pin="RESERVED10" pad="RESERVED10"/>
+<connect gate="G$1" pin="RESERVED11" pad="RESERVED11"/>
+<connect gate="G$1" pin="RESERVED2" pad="RESERVED2"/>
+<connect gate="G$1" pin="RESERVED3" pad="RESERVED3"/>
+<connect gate="G$1" pin="RESERVED4" pad="RESERVED4"/>
+<connect gate="G$1" pin="RESERVED5" pad="RESERVED5"/>
+<connect gate="G$1" pin="RESERVED6" pad="RESERVED6"/>
+<connect gate="G$1" pin="RESERVED7" pad="RESERVED7"/>
+<connect gate="G$1" pin="RESERVED8" pad="RESERVED8"/>
+<connect gate="G$1" pin="RESERVED9" pad="RESERVED9"/>
+<connect gate="G$1" pin="RF_ANT" pad="RF_ANT"/>
+<connect gate="G$1" pin="RI" pad="RI"/>
+<connect gate="G$1" pin="RTS" pad="RTS"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="RXD_AUX" pad="RXD_AUX"/>
+<connect gate="G$1" pin="SD_CLK" pad="SD_CLK"/>
+<connect gate="G$1" pin="SD_CMD" pad="SD_CMD"/>
+<connect gate="G$1" pin="SD_DATA" pad="SD_DATA"/>
+<connect gate="G$1" pin="SIM1_CLK" pad="SIM1_CLK"/>
+<connect gate="G$1" pin="SIM1_DATA" pad="SIM1_DATA"/>
+<connect gate="G$1" pin="SIM1_RST" pad="SIM1_RST"/>
+<connect gate="G$1" pin="SIM1_VDD" pad="SIM1_VDD"/>
+<connect gate="G$1" pin="SIM2_CLK" pad="SIM2_CLK"/>
+<connect gate="G$1" pin="SIM2_DATA" pad="SIM2_DATA"/>
+<connect gate="G$1" pin="SIM2_RST" pad="SIM2_RST"/>
+<connect gate="G$1" pin="SIM2_VDD" pad="SIM2_VDD"/>
+<connect gate="G$1" pin="SIM_GND" pad="SIM_GND"/>
+<connect gate="G$1" pin="SPKN" pad="SPKN"/>
+<connect gate="G$1" pin="SPKP" pad="SPKP"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="TXD_AUX" pad="TXD_AUX"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VBAT1" pad="VBAT1"/>
+<connect gate="G$1" pin="VDD_EXT" pad="VDD_EXT"/>
+<connect gate="G$1" pin="VRTC" pad="VRTC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="M66FA-04-STD">
+<gates>
+<gate name="G$1" symbol="M66FA-04-STD" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="M66FA-049SD">
+<connects>
+<connect gate="G$1" pin="ADC0" pad="9"/>
+<connect gate="G$1" pin="AGND" pad="1"/>
+<connect gate="G$1" pin="AVDD" pad="8"/>
+<connect gate="G$1" pin="BT_ANT" pad="26"/>
+<connect gate="G$1" pin="CTS" pad="22"/>
+<connect gate="G$1" pin="DBG_RXD" pad="38"/>
+<connect gate="G$1" pin="DBG_TXD" pad="39"/>
+<connect gate="G$1" pin="DCD" pad="21"/>
+<connect gate="G$1" pin="DTR" pad="19"/>
+<connect gate="G$1" pin="GND" pad="27 34 36 37 40 41"/>
+<connect gate="G$1" pin="MICN" pad="4"/>
+<connect gate="G$1" pin="MICP" pad="3"/>
+<connect gate="G$1" pin="NETLIGHT" pad="16"/>
+<connect gate="G$1" pin="PCM_CLK" pad="30"/>
+<connect gate="G$1" pin="PCM_IN" pad="32"/>
+<connect gate="G$1" pin="PCM_OUT" pad="33"/>
+<connect gate="G$1" pin="PCM_SYNC" pad="31"/>
+<connect gate="G$1" pin="PWRKEY" pad="7"/>
+<connect gate="G$1" pin="RFTXMON" pad="25"/>
+<connect gate="G$1" pin="RF_ANT" pad="35"/>
+<connect gate="G$1" pin="RI" pad="20"/>
+<connect gate="G$1" pin="RTS" pad="23"/>
+<connect gate="G$1" pin="RXD" pad="18"/>
+<connect gate="G$1" pin="RXD_AUX" pad="28"/>
+<connect gate="G$1" pin="SIM_CLK" pad="13"/>
+<connect gate="G$1" pin="SIM_DATA" pad="11"/>
+<connect gate="G$1" pin="SIM_GND" pad="10"/>
+<connect gate="G$1" pin="SIM_RST" pad="12"/>
+<connect gate="G$1" pin="SIM_VDD" pad="14"/>
+<connect gate="G$1" pin="SPK1N" pad="6"/>
+<connect gate="G$1" pin="SPK1P" pad="5"/>
+<connect gate="G$1" pin="SPK2P" pad="2"/>
+<connect gate="G$1" pin="TXD" pad="17"/>
+<connect gate="G$1" pin="TXD_AUX" pad="29"/>
+<connect gate="G$1" pin="VBAT" pad="42 43"/>
+<connect gate="G$1" pin="VDD_EXT" pad="24"/>
+<connect gate="G$1" pin="VRTC" pad="44"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="M66">
+<gates>
+<gate name="G$1" symbol="M66" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="M66">
+<connects>
+<connect gate="G$1" pin="ADC0" pad="ADC0"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="AVDD" pad="AVDD"/>
+<connect gate="G$1" pin="BT_ANT" pad="BT_ANT"/>
+<connect gate="G$1" pin="CTS" pad="CTS"/>
+<connect gate="G$1" pin="DBG_RXD" pad="DBG_RXD"/>
+<connect gate="G$1" pin="DBG_TXD" pad="DBG_TXD"/>
+<connect gate="G$1" pin="DCD" pad="DCD"/>
+<connect gate="G$1" pin="DTR" pad="DTR"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6"/>
+<connect gate="G$1" pin="MICN" pad="MICN"/>
+<connect gate="G$1" pin="MICP" pad="MICP"/>
+<connect gate="G$1" pin="NETLIGHT" pad="NETLIGHT"/>
+<connect gate="G$1" pin="PCM_CLK" pad="PCM_CLK"/>
+<connect gate="G$1" pin="PCM_IN" pad="PCM_IN"/>
+<connect gate="G$1" pin="PCM_OUT" pad="PCM_OUT"/>
+<connect gate="G$1" pin="PCM_SYNC" pad="PCM_SYNC"/>
+<connect gate="G$1" pin="PWRKEY" pad="PWRKEY"/>
+<connect gate="G$1" pin="RESERVED" pad="RESERVED"/>
+<connect gate="G$1" pin="RFTXMON" pad="RFTXMON"/>
+<connect gate="G$1" pin="RF_ANT" pad="RF_ANT"/>
+<connect gate="G$1" pin="RI" pad="RI"/>
+<connect gate="G$1" pin="RTS" pad="RTS"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="RXD_AUX" pad="RXD_AUX"/>
+<connect gate="G$1" pin="SIM_CLK" pad="SIM_CLK"/>
+<connect gate="G$1" pin="SIM_DATA" pad="SIM_DATA"/>
+<connect gate="G$1" pin="SIM_GND" pad="SIM_GND"/>
+<connect gate="G$1" pin="SIM_RST" pad="SIM_RST"/>
+<connect gate="G$1" pin="SIM_VDD" pad="SIM_VDD"/>
+<connect gate="G$1" pin="SPK1N" pad="SPK1N"/>
+<connect gate="G$1" pin="SPK1P" pad="SPK1P"/>
+<connect gate="G$1" pin="SPK2P" pad="SPK2P"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="TXD_AUX" pad="TXD_AUX"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT1 VBAT2"/>
+<connect gate="G$1" pin="VDD_EXT" pad="VDD_EXT"/>
+<connect gate="G$1" pin="VRTC" pad="VRTC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC68">
+<gates>
+<gate name="G$1" symbol="BC68" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="BC68">
+<connects>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="DBG_RXD" pad="DBG_RXD"/>
+<connect gate="G$1" pin="DBG_TXD" pad="DBG_TXD"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7"/>
+<connect gate="G$1" pin="NETLIGHT" pad="NETLIGHT"/>
+<connect gate="G$1" pin="RESERVED1" pad="RESERVED1"/>
+<connect gate="G$1" pin="RESERVED10" pad="RESERVED10"/>
+<connect gate="G$1" pin="RESERVED11" pad="RESERVED11"/>
+<connect gate="G$1" pin="RESERVED12" pad="RESERVED12"/>
+<connect gate="G$1" pin="RESERVED13" pad="RESERVED13"/>
+<connect gate="G$1" pin="RESERVED14" pad="RESERVED14"/>
+<connect gate="G$1" pin="RESERVED15" pad="RESERVED15"/>
+<connect gate="G$1" pin="RESERVED16" pad="RESERVED16"/>
+<connect gate="G$1" pin="RESERVED17" pad="RESERVED17"/>
+<connect gate="G$1" pin="RESERVED18" pad="RESERVED18"/>
+<connect gate="G$1" pin="RESERVED19" pad="RESERVED19"/>
+<connect gate="G$1" pin="RESERVED2" pad="RESERVED2"/>
+<connect gate="G$1" pin="RESERVED20" pad="RESERVED20"/>
+<connect gate="G$1" pin="RESERVED21" pad="RESERVED21"/>
+<connect gate="G$1" pin="RESERVED22" pad="RESERVED22"/>
+<connect gate="G$1" pin="RESERVED23" pad="RESERVED23"/>
+<connect gate="G$1" pin="RESERVED24" pad="RESERVED24"/>
+<connect gate="G$1" pin="RESERVED25" pad="RESERVED25"/>
+<connect gate="G$1" pin="RESERVED26" pad="RESERVED26"/>
+<connect gate="G$1" pin="RESERVED27" pad="RESERVED27"/>
+<connect gate="G$1" pin="RESERVED28" pad="RESERVED28"/>
+<connect gate="G$1" pin="RESERVED29" pad="RESERVED29"/>
+<connect gate="G$1" pin="RESERVED3" pad="RESERVED3"/>
+<connect gate="G$1" pin="RESERVED30" pad="RESERVED30"/>
+<connect gate="G$1" pin="RESERVED31" pad="RESERVED31"/>
+<connect gate="G$1" pin="RESERVED32" pad="RESERVED32"/>
+<connect gate="G$1" pin="RESERVED33" pad="RESERVED33"/>
+<connect gate="G$1" pin="RESERVED34" pad="RESERVED34"/>
+<connect gate="G$1" pin="RESERVED4" pad="RESERVED4"/>
+<connect gate="G$1" pin="RESERVED5" pad="RESERVED5"/>
+<connect gate="G$1" pin="RESERVED6" pad="RESERVED6"/>
+<connect gate="G$1" pin="RESERVED7" pad="RESERVED7"/>
+<connect gate="G$1" pin="RESERVED8" pad="RESERVED8"/>
+<connect gate="G$1" pin="RESERVED9" pad="RESERVED9"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="RF_ANT" pad="RF_ANT"/>
+<connect gate="G$1" pin="RI" pad="RI"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="SIM_CLK" pad="USIM_CLK"/>
+<connect gate="G$1" pin="SIM_DATA" pad="USIM_DATA"/>
+<connect gate="G$1" pin="SIM_GND" pad="USIM_GND"/>
+<connect gate="G$1" pin="SIM_RST" pad="USIM_RST"/>
+<connect gate="G$1" pin="SIM_VDD" pad="USIM_VDD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT1 VBAT2"/>
+<connect gate="G$1" pin="VDD_EXT" pad="VDD_EXT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

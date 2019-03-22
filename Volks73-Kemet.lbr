@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<library>
+<description>&lt;h1&gt;Volks73's Library for Kemet Parts&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href="https://github.com/volks73/eagle-libraries/"&gt;Repository&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3&gt;Licensing:&lt;/h3&gt; 
+&lt;p&gt;
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/"&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+For attribution, please provide a link in any documentation or design files to the repository on Github. 
+&lt;/p&gt;</description>
+<packages>
+<package name="RADIAL-0.100&quot;">
+<description>&lt;h1&gt;Radial 0.100" (2.54mm) Spacing&lt;/h1&gt;
+&lt;h2&gt; C Series 315 size code&lt;/h2&gt;</description>
+<pad name="1" x="0" y="1.27" drill="0.8"/>
+<pad name="2" x="0" y="-1.27" drill="0.8"/>
+<wire x1="-1.27" y1="-2.286" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="2.286" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="2.286" x2="1.27" y2="2.286" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.286" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-2.286" x2="-1.27" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="25" rot="R90">&gt;VALUE</text>
+<circle x="0" y="1.27" radius="0.3048" width="0.127" layer="51"/>
+<circle x="0" y="1.27" radius="0.3048" width="0.127" layer="51"/>
+<circle x="0" y="-1.27" radius="0.3048" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="1.905" width="0.127" layer="49"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="1.905" width="0.127" layer="49"/>
+<wire x1="-1.27" y1="1.905" x2="1.27" y2="1.905" width="0.127" layer="49"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.127" layer="49"/>
+</package>
+<package name="X">
+<description>&lt;h1&gt;2917 (7343 Metric)&lt;/h1&gt;
+&lt;h2&gt;T491 Series, X Size Code&lt;/h2&gt;</description>
+<smd name="A" x="-3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
+<smd name="C" x="3.22" y="0" dx="2.77" dy="2.55" layer="1" rot="R180"/>
+<wire x1="-5.11" y1="2.8" x2="5.11" y2="2.8" width="0.127" layer="49"/>
+<wire x1="5.11" y1="2.8" x2="5.11" y2="-2.8" width="0.127" layer="49"/>
+<wire x1="5.11" y1="-2.8" x2="-5.11" y2="-2.8" width="0.127" layer="49"/>
+<wire x1="-5.11" y1="-2.8" x2="-5.11" y2="2.8" width="0.127" layer="49"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-6.35" y="1.27" size="0.8128" layer="21">A</text>
+<text x="5.715" y="1.27" size="0.8128" layer="21">C</text>
+<text x="-6.35" y="-2.54" size="0.8128" layer="21">+</text>
+<text x="5.715" y="-2.54" size="0.8128" layer="21">-</text>
+<rectangle x1="-3.65" y1="-1.2" x2="-2.35" y2="1.2" layer="51"/>
+<rectangle x1="2.35" y1="-1.2" x2="3.65" y2="1.2" layer="51"/>
+<wire x1="-1.27" y1="0" x2="-0.235" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.235" y1="0" x2="-0.235" y2="1.24" width="0.127" layer="21"/>
+<wire x1="-0.235" y1="0" x2="-0.235" y2="-1.24" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0" x2="0.335" y2="0" width="0.127" layer="21"/>
+<wire x1="0.835" y1="-1.24" x2="0.935" y2="1.24" width="0.127" layer="21" curve="-100"/>
+<wire x1="-3.5" y1="1.5" x2="-3.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.5" x2="-2.54" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="2.5" x2="3.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-2.5" x2="-2.54" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-1.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-1.5" x2="3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.5" x2="-2.54" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.5" x2="-2.54" y2="-1.5" width="0.127" layer="21"/>
+</package>
+<package name="RADIAL-SMD">
+<description>&lt;h1&gt;Radial, Can - Surface Mount Device&lt;/h1&gt;
+&lt;h2&gt;EDK Series, 9M Size Code&lt;/h2&gt;</description>
+<smd name="C" x="-3.25" y="0" dx="3.6" dy="1.1" layer="1"/>
+<smd name="A" x="3.25" y="0" dx="3.6" dy="1.1" layer="1" rot="R180"/>
+<wire x1="-4.15" y1="-4.15" x2="2.54" y2="-4.15" width="0.127" layer="49"/>
+<wire x1="2.54" y1="4.15" x2="-4.15" y2="4.15" width="0.127" layer="49"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="-4.15" width="0.127" layer="49"/>
+<wire x1="4.15" y1="-2.54" x2="4.15" y2="2.54" width="0.127" layer="49"/>
+<wire x1="2.54" y1="-4.15" x2="4.15" y2="-2.54" width="0.127" layer="49"/>
+<wire x1="4.15" y1="2.54" x2="2.54" y2="4.15" width="0.127" layer="49"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="49"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="2.54" y2="4.15" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.15" x2="4.15" y2="2.54" width="0.127" layer="21"/>
+<wire x1="4.15" y1="2.54" x2="4.15" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="1.27" x2="4.15" y2="1.27" width="0.127" layer="21" curve="-135"/>
+<wire x1="-4.15" y1="-4.15" x2="2.54" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-2.54" x2="2.54" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-1.27" x2="4.15" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="4.15" y1="-1.27" x2="-4.15" y2="-1.27" width="0.127" layer="21" curve="-135"/>
+<text x="-5.715" y="-2.54" size="1.27" layer="21">-</text>
+<text x="-5.715" y="1.905" size="1.27" layer="21">C</text>
+<text x="5.08" y="1.905" size="1.27" layer="21">A</text>
+<text x="5.08" y="-2.54" size="1.27" layer="21">+</text>
+<text x="-3.175" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.715" size="1.27" layer="27">&gt;Value</text>
+<rectangle x1="-5" y1="-0.45" x2="-1.6" y2="0.45" layer="51"/>
+<rectangle x1="1.6" y1="-0.45" x2="5" y2="0.45" layer="51" rot="R180"/>
+</package>
+<package name="0201">
+<description>&lt;h1&gt;0201 (0603 Metric) Surface Mount Device (SMD)&lt;/h1&gt;
+&lt;h2&gt;02 Size Code for CBR Series Capacitors&lt;/h2&gt;</description>
+<smd name="1" x="-0.46" y="0" dx="0.74" dy="0.46" layer="1"/>
+<smd name="2" x="0.46" y="0" dx="0.74" dy="0.46" layer="1" rot="R180"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.127" layer="49"/>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51" rot="R180"/>
+<wire x1="0.3" y1="0.15" x2="0.3" y2="-0.15" width="0.127" layer="49"/>
+<wire x1="-0.3" y1="0.15" x2="0.3" y2="0.15" width="0.127" layer="49"/>
+<wire x1="0.3" y1="-0.15" x2="-0.3" y2="-0.15" width="0.127" layer="49"/>
+<text x="-2.54" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="D">
+<description>&lt;h1&gt;2917 (7343 Metric)&lt;/h1&gt;
+&lt;h2&gt;T491 Series, D Size Code&lt;/h2&gt;</description>
+<smd name="-" x="-3.22" y="0" dx="2.77" dy="2.55" layer="1"/>
+<smd name="+" x="3.22" y="0" dx="2.77" dy="2.55" layer="1" rot="R180"/>
+<wire x1="-5.11" y1="-2.8" x2="-5.11" y2="2.8" width="0.127" layer="49"/>
+<wire x1="-5.11" y1="2.8" x2="5.11" y2="2.8" width="0.127" layer="49"/>
+<wire x1="5.11" y1="2.8" x2="5.11" y2="-2.8" width="0.127" layer="49"/>
+<wire x1="5.11" y1="-2.8" x2="-5.11" y2="-2.8" width="0.127" layer="49"/>
+<wire x1="1.27" y1="0" x2="0.235" y2="0" width="0.127" layer="21"/>
+<wire x1="0.235" y1="0" x2="0.235" y2="-1.24" width="0.127" layer="21"/>
+<wire x1="0.235" y1="0" x2="0.235" y2="1.24" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-0.335" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.835" y1="1.24" x2="-0.935" y2="-1.24" width="0.127" layer="21" curve="-100"/>
+<wire x1="-3.8" y1="-2.3" x2="3.175" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.3" x2="3.8" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.8" y1="2.3" x2="-3.8" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.3" x2="-3.81" y2="1.5" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.51" x2="3.81" y2="2.31" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.3" x2="3.81" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.3" x2="-3.81" y2="-1.5" width="0.127" layer="21"/>
+<rectangle x1="-3.8" y1="-1.2" x2="-1.8" y2="1.2" layer="51"/>
+<rectangle x1="1.8" y1="-1.2" x2="3.8" y2="1.2" layer="51" rot="R180"/>
+<text x="5.715" y="1.27" size="1.27" layer="21">A</text>
+<text x="5.715" y="-2.54" size="1.27" layer="21">+</text>
+<text x="-6.35" y="1.27" size="1.27" layer="21">C</text>
+<text x="-6.35" y="-2.54" size="1.27" layer="21">-</text>
+<wire x1="3.175" y1="1.51" x2="3.175" y2="2.31" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.3" x2="3.175" y2="-1.5" width="0.127" layer="21"/>
+<text x="-5.08" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="A">
+<description>&lt;h1&gt;1206 (3216 Metric)&lt;/h1&gt;
+&lt;h2&gt;T491 Series, A Size Code&lt;/h2&gt;</description>
+<smd name="C" x="-1.31" y="0" dx="1.8" dy="1.23" layer="1"/>
+<smd name="A" x="1.31" y="0" dx="1.8" dy="1.23" layer="1"/>
+<wire x1="-1.7" y1="-0.9" x2="-1.7" y2="0.9" width="0.127" layer="49"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.127" layer="49"/>
+<wire x1="1.7" y1="0.9" x2="1.7" y2="-0.9" width="0.127" layer="49"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.127" layer="49"/>
+<text x="3.175" y="-0.635" size="1.27" layer="21">A</text>
+<text x="-3.81" y="-0.635" size="1.27" layer="21">C</text>
+<text x="4.445" y="0" size="1.27" layer="21">+</text>
+<text x="-5.08" y="0" size="1.27" layer="21">-</text>
+<rectangle x1="-1.5275" y1="-0.6235" x2="-0.6235" y2="0.6235" layer="51"/>
+<rectangle x1="0.6235" y1="-0.6235" x2="1.5275" y2="0.6235" layer="51" rot="R180"/>
+<text x="-3.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIELECTRIC_CAPACITOR">
+<wire x1="-2.54" y1="0.635" x2="0" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="2.54" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
+<pin name="2" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-0.635" x2="2.54" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.635" width="0.254" layer="94"/>
+<text x="-3.81" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-3.81" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="ELECTROLYTIC_CAPACITOR">
+<wire x1="-2.54" y1="0.762" x2="0" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.492" x2="0" y2="-0.5081" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.5081" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.492" x2="2.4892" y2="-1.3462" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4669" y1="-1.3424" x2="0" y2="-0.5081" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
+<text x="-3.81" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-4.064" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="1.43" x2="-1.364" y2="1.557" layer="94"/>
+<rectangle x1="-1.872" y1="1.049" x2="-1.745" y2="1.938" layer="94"/>
+<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="0.762" x2="0" y2="2.54" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C?*" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
+&lt;h2&gt;Multilayer Ceramic Capacitors/Axial &amp; Radial Leaded&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIELECTRIC_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="315" package="RADIAL-0.100&quot;">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="C104M5U5TA">
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="0.1uF"/>
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 50V 20% RADIAL"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT" value="0.210&quot; (5.33mm)"/>
+<attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)"/>
+<attribute name="LEAD_STYLE" value="Straight"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMERPATURE" value="10C ~ 85C"/>
+<attribute name="PACKAGE" value="Radial"/>
+<attribute name="PART_NUMBER" value="C315C104M5U5TA"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="Golden Max"/>
+<attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/C315C104M5U5TA/399-4151-ND/817927&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-4151-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/C315C104M5U5TA/399-4151-ND/817927"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="Z5U"/>
+<attribute name="THICKNESS" value="-"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE-RATED" value="50V"/>
+</technology>
+<technology name="C105K3R5TA">
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="1.0uF"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V 10% RADIAL"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/52/F3101_GoldMax.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="HEIGHT" value="0.210&quot; (5.33mm)"/>
+<attribute name="LEAD_SPACING" value="0.100&quot; (2.54mm)"/>
+<attribute name="LEAD_STYLE" value="Straight"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Through Hole"/>
+<attribute name="OPERATING_TEMERPATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="Radial"/>
+<attribute name="PART_NUMBER" value="C315C105K3R5TA"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="Golden Max"/>
+<attribute name="SIZE" value="0.150&quot; L x 0.100&quot; W (3.81mm x 2.54mm"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-search/en?KeyWords=C315C105K3R5TA&amp;WT.z_header=search_go&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-9714-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-search/en?KeyWords=C315C105K3R5TA&amp;WT.z_header=search_go"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="X7R"/>
+<attribute name="THICKNESS" value="-"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE-RATED" value="25V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T491?*" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Tantalum Surface Mount Capacitor - Standard Tantalum&lt;/h1&gt;
+&lt;h2&gt;T491 Series Industrial Grade MnO&lt;sub&gt;2&lt;/sub&gt;&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;p&gt;
+The KEMET T491 Series, designed specifially for today’s highly automated surface mount processes and equipment, is the leading choice for surface mount designs. The T491 combines KEMET’s proven solid tantalum technology, acclaimed and respected throughout the world, with the latest in materials, processes and automation, resulting in unsurpassed total performance and value. This product meets or exceeds the requirements of EIA standard 535BAAC. This series is classifid
+as MSL (Moisture Sensitivity Level) 1 under J STD 020: unlimited flor life time at ≤30°C / 85% RH. The T491 standard terminations are available in 100% matte tin and provide excellent wetting characteristics and compatibility with today's surface mount solder systems. Tin/lead (Sn/Pb) terminations are available upon request for any part number. Gold-plated terminations are also available for use with conductive epoxy attachment processes. Standard packaging of these devices is tape and reel in accordance with EIA 481. This system provides perfect compatibility with all tape-fed placement units.
+&lt;/p&gt;
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Meets or exceeds EIA Standard 535BAAC&lt;/li&gt;
+&lt;li&gt;Taped and reeled per EIA 481&lt;/li&gt;
+&lt;li&gt;Symmetrical, compliant terminations&lt;/li&gt;
+&lt;li&gt;Optional gold-plated terminations&lt;/li&gt;
+&lt;li&gt;Laser-marked case&lt;/li&gt;
+&lt;li&gt;100% surge current test on C, D, E, U, V, X sizes&lt;/li&gt;
+&lt;li&gt;Halogen free epoxy&lt;/li&gt;
+&lt;li&gt;Capacitance 0.1 µF to 1,000 µF&lt;/li&gt;
+&lt;li&gt;Tolerance ±10%, ±20%&lt;/li&gt;
+&lt;li&gt;Voltage 2.5 – 50 VDC&lt;/li&gt;
+&lt;li&gt;Extended range values&lt;/li&gt;
+&lt;li&gt;Low profie case sizes&lt;/li&gt;
+&lt;li&gt;RoHS Compliant and lead-free terminations&lt;br&gt;
+(See www.kemet.com for transition information)&lt;/li&gt;
+&lt;li&gt;Operating temperature: -55ºC to +125ºC&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ELECTROLYTIC_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="X" package="X">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="107K025AT">
+<attribute name="CAPACITANCE" value="100uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 25V 10% 2917"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="300 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.169&quot; (4.30mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="X"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="2917 (7343 Metric)"/>
+<attribute name="PART_NUMBER" value="T491X107K025AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491X107K025AT/399-8410-1-ND/3472133"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-8410-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value=""/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="25V"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="D">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="C" pad="-"/>
+</connects>
+<technologies>
+<technology name="107K016AT">
+<attribute name="CAPACITANCE" value="100µF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 16V 10% 2917"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="700 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PART_NUMBER" value="T491D107K016AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3770-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107K016AT/399-3770-1-ND/819095"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="16V"/>
+</technology>
+<technology name="107M006AT">
+<attribute name="CAPACITANCE" value="100µF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 6.3V 20% 2917"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="800 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PART_NUMBER" value="T491D107M006AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-8367-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107M006AT/399-8367-1-ND/3472090"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="6.3V"/>
+</technology>
+<technology name="107M010AT">
+<attribute name="CAPACITANCE" value="100µF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DATASHEET" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="DESCRIPTION" value="CAP TANT 100UF 10V 20% 2917"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf"/>
+<attribute name="ESR" value="700 mOhm"/>
+<attribute name="FAMILY" value="Tantalum Capacitors"/>
+<attribute name="FEATURES" value="General Purpose"/>
+<attribute name="HEIGHT-SEATED" value="0.122&quot; (3.10mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME_TEMP" value="2000 Hrs @ 85°C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="D"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C"/>
+<attribute name="PART_NUMBER" value="T491D107M010AT"/>
+<attribute name="SERIES" value="T491"/>
+<attribute name="SIZE" value="0.287&quot; L x 0.169&quot; W (7.30mm x 4.30mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/T491D107M010AT/399-3772-1-ND/819097"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491D107M010AT/399-3772-1-ND/819097&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3772-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491D107M010AT/399-3772-1-ND/819097"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="TYPE" value="Molded"/>
+<attribute name="VOLTAGE-RATED" value="10V"/>
+</technology>
+</technologies>
+</device>
+<device name="A" package="A">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="106K010AT">
+<attribute name="CAPACITANCE" value="10µF" constant="no"/>
+<attribute name="CATEGORY" value="Capacitors" constant="no"/>
+<attribute name="DESCRIPTION" value="CAP TANT 10UF 10V 10% 1206" constant="no"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf&quot;&gt;Datasheet&lt;/a&gt;" constant="no"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/254/KEM_T2005_T491.pdf" constant="no"/>
+<attribute name="ESR" value="3.8 Ohm" constant="no"/>
+<attribute name="FAMILY" value="Tantalum Capacitors" constant="no"/>
+<attribute name="FEATURES" value="General Purpose" constant="no"/>
+<attribute name="HEIGHT" value="0.071&quot; (1.80mm)" constant="no"/>
+<attribute name="LEAD_SPACING" value="-" constant="no"/>
+<attribute name="LIFETIME_AT_TEMP" value="2000 Hrs @ 85°C" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_SIZE_CODE" value="A" constant="no"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount" constant="no"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55°C ~ 125°C" constant="no"/>
+<attribute name="PACKAGE" value="1206 (3216 Metric)" constant="no"/>
+<attribute name="PART_NUMBER" value="T491A106K010AT" constant="no"/>
+<attribute name="SERIES" value="T491" constant="no"/>
+<attribute name="SIZE" value="0.126&quot; L x 0.063&quot; W (3.20mm x 1.60mm)" constant="no"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/T491A106K010AT/399-3684-1-ND/819009&quot;&gt;Details&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-3684-1-ND" constant="no"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/T491A106K010AT/399-3684-1-ND/819009" constant="no"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;" constant="no"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key" constant="no"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com" constant="no"/>
+<attribute name="TOLERANCE" value="±10%" constant="no"/>
+<attribute name="TYPE" value="Molded" constant="no"/>
+<attribute name="VOLTAGE-RATED" value="10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EDK*?AA" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Surface Mount Aluminum Electrolytic Capacitors&lt;/h1&gt;
+&lt;h2&gt;EDK Series, +85&lt;sup&gt;o&lt;/sup&gt;C&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;p&gt;
+KEMET's EDK Series of aluminum electrolytic surface mount capacitors are designed for high density printed circuit boards.
+&lt;/p&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;p&gt;
+Typical applications include coupling, decoupling, bypass, and fitering.
+&lt;/p&gt;
+&lt;h3&gt;Benefits&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Surface mount lead terminals&lt;/li&gt;
+&lt;li&gt;Low profile vertical chip&lt;/li&gt;
+&lt;li&gt;General purpose +85&lt;sup&gt;o&lt;/sup&gt;C/2,000 hours&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ELECTROLYTIC_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="9M" package="RADIAL-SMD">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="107M050A">
+<attribute name="APPLICATIONS" value="General Purpose"/>
+<attribute name="CAPACITANCE" value="100uF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP ALUM 100UF 50V 20% SMD"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf"/>
+<attribute name="ESR" value="-"/>
+<attribute name="FAMILY" value="Aluminum Capacitors"/>
+<attribute name="HEIGHT-SEATED" value="0.413&quot; (10.50mm)"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LIFETIME" value="2000 Hrs @ 85C"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="PACKAGE" value="Radial, Can - SMD"/>
+<attribute name="PART_NUMBER" value="EDK107M050A9MAA"/>
+<attribute name="RIPPLE_CURRENT" value="165mA"/>
+<attribute name="SERIES" value="EDK"/>
+<attribute name="SIZE" value="0.315&quot; Dia (8.00mm)"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-6672-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/EDK107M050A9MAA/399-6672-1-ND/3082804"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="SURFACE_MOUNT_LAND_SIZE" value="0.327&quot; L x 0.394&quot; W (8.30mm x 10.00mm)"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="TYPE" value="-"/>
+<attribute name="VOLTAGE_RATING" value="50V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CBR?*" prefix="C" uservalue="yes">
+<description>&lt;h1&gt;Ceramic Capacitor&lt;/h1&gt;
+&lt;h2&gt;Surface Mount Multilayer Cermaic Capacitors (SMD MLCCs) for High Power Applications&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIELECTRIC_CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="02" package="0201">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="C200F5GAC">
+<attribute name="APPLICATIONS" value="RF, Microware, High Frequency"/>
+<attribute name="CAPACITANCE" value="20pF"/>
+<attribute name="CATEGORY" value="Capacitors"/>
+<attribute name="DESCRIPTION" value="CAP CER 20PF 50V 1% NP0 0201"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf"/>
+<attribute name="FAMILY" value="Ceramic Capacitors"/>
+<attribute name="FEATURES" value="High Q, Low Loss"/>
+<attribute name="HEIGHT-SEATED" value="-"/>
+<attribute name="LEAD_SPACING" value="-"/>
+<attribute name="LEAD_STYLE" value="-"/>
+<attribute name="MANUFACTURER" value="Kemet"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount, MLCC"/>
+<attribute name="OPERATING_TEMPERATURE" value="-55C ~ 125C"/>
+<attribute name="PACKAGE" value="0201 (0603 Metric)"/>
+<attribute name="PART_NUMBER" value="CBR02C200F5GAC"/>
+<attribute name="RATINGS" value="-"/>
+<attribute name="SERIES" value="CBR"/>
+<attribute name="SIZE" value="0.024&quot; L x 0.012&quot; W (0.60mm x 0.30mm)"/>
+<attribute name="STANDARD_PACKAGE" value="1"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="399-11242-1-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/CBR02C200F5GAC/399-11242-1-ND/4376869"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TEMPERATURE_COEFFICIENT" value="C0G, NP0"/>
+<attribute name="THICKENSS" value="0.013&quot; (0.33mm)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE-RATED" value="50V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
