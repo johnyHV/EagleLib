@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="XTAL320X150X75">
+<wire x1="-1.6002" y1="0.7493" x2="1.6002" y2="0.7493" width="0.127" layer="21"/>
+<wire x1="1.6002" y1="0.7493" x2="1.6002" y2="-0.7493" width="0.127" layer="21"/>
+<wire x1="1.6002" y1="-0.7493" x2="-1.6002" y2="-0.7493" width="0.127" layer="21"/>
+<wire x1="-1.6002" y1="-0.7493" x2="-1.6002" y2="0.7493" width="0.127" layer="21"/>
+<text x="-2.54443125" y="1.272209375" size="1.272209375" layer="25">&gt;NAME</text>
+<text x="-2.544159375" y="-2.544159375" size="1.27208125" layer="27">&gt;VALUE</text>
+<smd name="1" x="-1.2192" y="0" dx="1.0922" dy="1.905" layer="1"/>
+<smd name="2" x="1.2192" y="0" dx="1.0922" dy="1.905" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="9HT10-32.768KDZY-T">
+<wire x1="-2.54" y1="-2" x2="-1" y2="-2" width="0.254" layer="94"/>
+<wire x1="-1" y1="-2" x2="-1" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-2" width="0.254" layer="94"/>
+<wire x1="-3.08" y1="-2" x2="-3.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-0.46" y1="-2" x2="-0.46" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.09195" y="1.03033125" size="1.27298125" layer="95">&gt;NAME</text>
+<text x="-5.09611875" y="-7.64416875" size="1.27403125" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.62" y="-3.54" length="short" direction="pas"/>
+<pin name="2" x="2.08" y="-3.54" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="9HT10-32.768KDZY-T" prefix="Y">
+<description>Crystal, 32.768khz, 12.5pf, 3.2 x 1.5mm</description>
+<gates>
+<gate name="G$1" symbol="9HT10-32.768KDZY-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XTAL320X150X75">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" 9HT10 Series 3 x 1.5 x 0.85 mm 32.768 kHz ±20 ppm 7 pF Ceramic Crystal "/>
+<attribute name="MF" value="TXC"/>
+<attribute name="MP" value="9HT10-32.768KDZY-T"/>
+<attribute name="PACKAGE" value="SMD-2 TXC"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
