@@ -116,6 +116,7 @@
 </symbols>
 <devicesets>
 <deviceset name="2776440">
+<description>PHOENIX CONTACT MPT 0,5/ 7-2,54</description>
 <gates>
 <gate name="G$1" symbol="2776440" x="0" y="5.08"/>
 </gates>
