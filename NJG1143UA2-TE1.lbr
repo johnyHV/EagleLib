@@ -71,10 +71,10 @@
 <smd name="6" x="-0.44" y="0.275" dx="0.3" dy="0.28" layer="1"/>
 <text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.2" layer="51"/>
-<wire x1="0.5" y1="0.5" x2="0.5" y2="-0.5" width="0.2" layer="51"/>
-<wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.2" layer="51"/>
-<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="0.5" width="0.2" layer="51"/>
+<wire x1="-0.5" y1="0.5" x2="0.5" y2="0.5" width="0.2" layer="21"/>
+<wire x1="0.5" y1="0.5" x2="0.5" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="0.5" y1="-0.5" x2="-0.5" y2="-0.5" width="0.2" layer="21"/>
+<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="0.5" width="0.2" layer="21"/>
 <wire x1="-1.09" y1="1.08" x2="1.09" y2="1.08" width="0.1" layer="51"/>
 <wire x1="1.09" y1="1.08" x2="1.09" y2="-1.08" width="0.1" layer="51"/>
 <wire x1="1.09" y1="-1.08" x2="-1.09" y2="-1.08" width="0.1" layer="51"/>

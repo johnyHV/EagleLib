@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7880,57 +7880,57 @@
 <wire x1="-2.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.0762" layer="21"/>
 <wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.0762" layer="21"/>
 <wire x1="2.25" y1="2.25" x2="-2.25" y2="2.25" width="0.0762" layer="21"/>
-<smd name="P$A5" x="0" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" stop="no"/>
-<smd name="P$A6" x="0.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R90" stop="no"/>
-<smd name="P$A7" x="1" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R90" stop="no"/>
-<smd name="P$A8" x="1.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$A9" x="2" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$B9" x="2" y="1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$C9" x="2" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$D9" x="2" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$E9" x="2" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$F9" x="2" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$G9" x="2" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$H9" x="2" y="-1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J9" x="2" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J8" x="1.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J7" x="1" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J6" x="0.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J5" x="0" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J4" x="-0.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J3" x="-1" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J2" x="-1.5" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$J1" x="-2" y="-2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$H1" x="-2" y="-1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$G1" x="-2" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$F1" x="-2" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$2E1" x="-2" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$D1" x="-2" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$C1" x="-2" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$B1" x="-2" y="1.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$A1" x="-2" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$A2" x="-1.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$A3" x="-1" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$A4" x="-0.5" y="2" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$C3" x="-1" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$C4" x="-0.5" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$C5" x="0" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$C6" x="0.5" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$C7" x="1" y="1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$D3" x="-1" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$E3" x="-1" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$F3" x="-1" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$G3" x="-1" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$G4" x="-0.5" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$G5" x="0" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$G6" x="0.5" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$G7" x="1" y="-1" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$F4" x="-0.5" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$F6" x="0.5" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$F7" x="1" y="-0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$E7" x="1" y="0" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$D6" x="0.5" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
-<smd name="P$D4" x="-0.5" y="0.5" dx="0.27" dy="0.27" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A5" x="0" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" stop="no"/>
+<smd name="P$A6" x="0.5" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="P$A7" x="1" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R90" stop="no"/>
+<smd name="P$A8" x="1.5" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A9" x="2" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$B9" x="2" y="1.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C9" x="2" y="1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D9" x="2" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$E9" x="2" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F9" x="2" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G9" x="2" y="-1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$H9" x="2" y="-1.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J9" x="2" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J8" x="1.5" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J7" x="1" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J6" x="0.5" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J5" x="0" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J4" x="-0.5" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J3" x="-1" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J2" x="-1.5" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$J1" x="-2" y="-2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$H1" x="-2" y="-1.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G1" x="-2" y="-1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F1" x="-2" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$2E1" x="-2" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D1" x="-2" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C1" x="-2" y="1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$B1" x="-2" y="1.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A1" x="-2" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A2" x="-1.5" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A3" x="-1" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$A4" x="-0.5" y="2" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C3" x="-1" y="1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C4" x="-0.5" y="1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C5" x="0" y="1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C6" x="0.5" y="1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$C7" x="1" y="1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D3" x="-1" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$E3" x="-1" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F3" x="-1" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G3" x="-1" y="-1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G4" x="-0.5" y="-1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G5" x="0" y="-1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G6" x="0.5" y="-1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$G7" x="1" y="-1" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F4" x="-0.5" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F6" x="0.5" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$F7" x="1" y="-0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$E7" x="1" y="0" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D6" x="0.5" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
+<smd name="P$D4" x="-0.5" y="0.5" dx="0.3" dy="0.3" layer="1" roundness="100" rot="R180" stop="no"/>
 <circle x="2" y="2" radius="0.185" width="0" layer="29"/>
 <circle x="2" y="1.5" radius="0.185" width="0" layer="29"/>
 <circle x="2" y="1" radius="0.185" width="0" layer="29"/>

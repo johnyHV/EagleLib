@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,50 +56,72 @@
 </layers>
 <library>
 <packages>
-<package name="BGA4C50P2X2_100X100X67">
-<wire x1="-0.2794" y1="0.5334" x2="-0.5334" y2="0.2794" width="0.0762" layer="21"/>
-<wire x1="-0.5334" y1="-0.5334" x2="0.5334" y2="-0.5334" width="0.0762" layer="21"/>
-<wire x1="0.5334" y1="-0.5334" x2="0.5334" y2="0.5334" width="0.0762" layer="21"/>
-<wire x1="0.5334" y1="0.5334" x2="-0.5334" y2="0.5334" width="0.0762" layer="21"/>
-<wire x1="-0.5334" y1="0.5334" x2="-0.5334" y2="-0.5334" width="0.0762" layer="21"/>
-<text x="-4.5466" y="-3.3528" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="1.905" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<smd name="A1" x="-0.254" y="0.254" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="A2" x="0.254" y="0.254" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B1" x="-0.254" y="-0.254" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<smd name="B2" x="0.254" y="-0.254" dx="0.3048" dy="0.3048" layer="1" roundness="100"/>
-<circle x="-0.635" y="0.635" radius="0.0254" width="0.0762" layer="21"/>
+<package name="HAV(F)">
+<description>&lt;b&gt;HAV(F)&lt;/b&gt;&lt;br&gt;
+</description>
+<text x="-0.359119" y="0.0929054" size="1.27226" layer="25" align="center">&gt;NAME</text>
+<text x="-0.359194" y="0.0929246" size="1.27253" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.15" y1="4.15" x2="4.15" y2="4.15" width="0.2" layer="51"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="-4.15" width="0.2" layer="51"/>
+<wire x1="4.15" y1="-4.15" x2="-4.15" y2="-4.15" width="0.2" layer="51"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="4.15" width="0.2" layer="51"/>
+<wire x1="-4.15" y1="4.15" x2="4.15" y2="4.15" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="4.15" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="1.3" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="-4.15" x2="-4.15" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="4.15" y1="-4.15" x2="4.15" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="4.15" y1="4.15" x2="4.15" y2="1.3" width="0.2" layer="21"/>
+<circle x="-6.383" y="0.029" radius="0.085" width="0.2" layer="25"/>
+<smd name="1" x="-3.7" y="0" dx="4.2" dy="2.1" layer="1"/>
+<smd name="2" x="3.7" y="0" dx="4.2" dy="2.1" layer="1"/>
 </package>
 </packages>
 <symbols>
-<symbol name="LD39130S">
-<pin name="IN" x="-2.54" y="5.08" length="short"/>
-<pin name="EN" x="-2.54" y="2.54" length="short"/>
-<pin name="OUT" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="GND" x="17.78" y="2.54" length="short" rot="R180"/>
-<wire x1="0" y1="7.62" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="15.24" y2="0" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
-<text x="0" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="EEEHA1H101UP">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.572" y1="1.27" x2="3.556" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.778" x2="4.064" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<text x="8.89703" y="6.35502" size="1.77941" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.90142" y="3.81489" size="1.78028" layer="96" align="center-left">&gt;VALUE</text>
+<polygon width="0.254" layer="94">
+<vertex x="7.62" y="2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="6.858" y="-2.54"/>
+<vertex x="6.858" y="2.54"/>
+</polygon>
+<pin name="+" x="0" y="0" visible="pad" length="short"/>
+<pin name="-" x="12.7" y="0" visible="pad" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LD39130S">
+<deviceset name="EEEHA1H101UP" prefix="C">
+<description>&lt;b&gt;HA SMT elec cap 100uF 50V 105deg Panasonic 100F 50 V dc Aluminium Electrolytic Capacitor F, HA SMD Series 1000h 8 Dia. x 10.2mm&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/EEEHA1H101UP.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="LD39130S" x="-7.62" y="-2.54"/>
+<gate name="G$1" symbol="EEEHA1H101UP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BGA4C50P2X2_100X100X67">
+<device name="" package="HAV(F)">
 <connects>
-<connect gate="G$1" pin="EN" pad="B1"/>
-<connect gate="G$1" pin="GND" pad="B2"/>
-<connect gate="G$1" pin="IN" pad="A1"/>
-<connect gate="G$1" pin="OUT" pad="A2"/>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MP" value="EEE-HA1H101UP"/>
+<attribute name="Package" value="Radial Panasonic Electronic"/>
+<attribute name="Availability" value="Unavailable"/>
+<attribute name="Price" value="None"/>
+<attribute name="MF" value="Panasonic Electronic"/>
+<attribute name="Description" value="
+Capacitor Alum Elec, 100uf, 20%, 50v, Capacitor Alum Elec, 100uf, 20%, 50v, Smd, Full Reel
+"/>
+</technology>
 </technologies>
 </device>
 </devices>
