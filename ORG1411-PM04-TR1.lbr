@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1127534/82812/2.35/11/4/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;GPS MODULE WITH INTEGRATED ANTENNA&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="ORG1411PM04TR1">
+<description>&lt;b&gt;ORG1411-PM04-TR1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.233" y="2.540" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="2" x="-4.233" y="1.270" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="3" x="-4.233" y="0.000" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="4" x="-4.233" y="-1.270" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="5" x="-4.233" y="-2.540" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="6" x="4.737" y="-2.540" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="7" x="4.737" y="-1.270" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="8" x="4.737" y="0.000" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="9" x="4.737" y="1.270" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="10" x="4.737" y="2.540" dx="1.422" dy="0.864" layer="1" rot="R0.000"/>
+<smd name="11" x="0.252" y="0.000" dx="10.008" dy="6.350" layer="1" rot="R90.000"/>
+<text x="0.000" y="0.000" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="0.000" y="0.000" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-4.748" y1="5" x2="5.252" y2="5" width="0.2" layer="51"/>
+<wire x1="5.252" y1="5" x2="5.252" y2="-5" width="0.2" layer="51"/>
+<wire x1="5.252" y1="-5" x2="-4.748" y2="-5" width="0.2" layer="51"/>
+<wire x1="-4.748" y1="-5" x2="-4.748" y2="5" width="0.2" layer="51"/>
+<wire x1="-6.448" y1="6.004" x2="6.448" y2="6.004" width="0.1" layer="51"/>
+<wire x1="6.448" y1="6.004" x2="6.448" y2="-6.004" width="0.1" layer="51"/>
+<wire x1="6.448" y1="-6.004" x2="-6.448" y2="-6.004" width="0.1" layer="51"/>
+<wire x1="-6.448" y1="-6.004" x2="-6.448" y2="6.004" width="0.1" layer="51"/>
+<wire x1="-3.248" y1="5" x2="-4.748" y2="5" width="0.1" layer="21"/>
+<wire x1="-4.748" y1="5" x2="-4.748" y2="3.5" width="0.1" layer="21"/>
+<wire x1="-4.748" y1="-3.5" x2="-4.748" y2="-5" width="0.1" layer="21"/>
+<wire x1="-4.748" y1="-5" x2="-3.248" y2="-5" width="0.1" layer="21"/>
+<wire x1="3.752" y1="5" x2="5.252" y2="5" width="0.1" layer="21"/>
+<wire x1="5.252" y1="5" x2="5.252" y2="3.5" width="0.1" layer="21"/>
+<wire x1="3.752" y1="-5" x2="5.252" y2="-5" width="0.1" layer="21"/>
+<wire x1="5.252" y1="-5" x2="5.252" y2="-3.5" width="0.1" layer="21"/>
+<wire x1="-5.348" y1="2.6" x2="-5.348" y2="2.6" width="0.2" layer="21"/>
+<wire x1="-5.348" y1="2.600" x2="-5.348" y2="2.400" width="0.2" layer="21" curve="-180.0"/>
+<wire x1="-5.348" y1="2.4" x2="-5.348" y2="2.4" width="0.2" layer="21"/>
+<wire x1="-5.348" y1="2.400" x2="-5.348" y2="2.600" width="0.2" layer="21" curve="-180.0"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ORG1411-PM04-TR1">
+<wire x1="5.08" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-15.24" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="39.37" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="39.37" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="ON_OFF" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="1PPS" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="TX" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="VCC" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="GND" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="WAKEUP" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="!CTS" x="43.18" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="!RESET" x="43.18" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="!RTS" x="43.18" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="RX" x="43.18" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="GROUND_PADDLE" x="43.18" y="-10.16" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ORG1411-PM04-TR1" prefix="IC">
+<description>&lt;b&gt;GPS MODULE WITH INTEGRATED ANTENNA&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://origingps.com/wp-content/uploads/2017/12/Datasheet-ORG1411-Series.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ORG1411-PM04-TR1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ORG1411PM04TR1">
+<connects>
+<connect gate="G$1" pin="ON_OFF" pad="1"/>
+<connect gate="G$1" pin="1PPS" pad="2"/>
+<connect gate="G$1" pin="TX" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="WAKEUP" pad="6"/>
+<connect gate="G$1" pin="!CTS" pad="7"/>
+<connect gate="G$1" pin="!RESET" pad="8"/>
+<connect gate="G$1" pin="!RTS" pad="9"/>
+<connect gate="G$1" pin="RX" pad="10"/>
+<connect gate="G$1" pin="GROUND_PADDLE" pad="11"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="Origin GPS" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="ORG1411-PM04-TR1" constant="no"/>
+<attribute name="RS_Part_Number" value="" constant="no"/>
+<attribute name="RS_Price-Stock" value="" constant="no"/>
+<attribute name="Arrow_Part_Number" value="ORG1411-PM04-TR1" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="" constant="no"/>
+<attribute name="Description" value="GPS MODULE WITH INTEGRATED ANTENNA" constant="no"/>
+<attribute name="Height" value="3mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
