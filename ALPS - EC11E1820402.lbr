@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Upverter Parts Library
+
+Created by Upverter.com</description>
+<packages>
+<package name="ALPS_EC11E1820402_0">
+<description>Incremental Type Encoder, 11mm Size Metal Shaft Type EC11</description>
+<wire x1="-5.85" y1="-6" x2="-5.85" y2="6" width="0.15" layer="51"/>
+<wire x1="-5.85" y1="6" x2="5.85" y2="6" width="0.15" layer="51"/>
+<wire x1="5.85" y1="6" x2="5.85" y2="-6" width="0.15" layer="51"/>
+<wire x1="5.85" y1="-6" x2="-5.85" y2="-6" width="0.15" layer="51"/>
+<wire x1="-5.85" y1="-6" x2="5.85" y2="-6" width="0.15" layer="21"/>
+<wire x1="-5.85" y1="3" x2="-5.85" y2="6" width="0.15" layer="21"/>
+<wire x1="5.85" y1="3" x2="5.85" y2="6" width="0.15" layer="21"/>
+<wire x1="-4" y1="6" x2="-5.85" y2="6" width="0.15" layer="21"/>
+<wire x1="5.85" y1="6" x2="4" y2="6" width="0.15" layer="21"/>
+<wire x1="-5.85" y1="-3" x2="-5.85" y2="-6" width="0.15" layer="21"/>
+<wire x1="5.85" y1="-3" x2="5.85" y2="-6" width="0.15" layer="21"/>
+<wire x1="-6.65" y1="-8.375" x2="-6.65" y2="7.875" width="0.1" layer="39"/>
+<wire x1="-6.65" y1="7.875" x2="6.65" y2="7.875" width="0.1" layer="39"/>
+<wire x1="6.65" y1="7.875" x2="6.65" y2="-8.375" width="0.1" layer="39"/>
+<wire x1="6.65" y1="-8.375" x2="-6.65" y2="-8.375" width="0.1" layer="39"/>
+<text x="-6.45" y="8.075" size="1" layer="25">&gt;NAME</text>
+<circle x="-2.525" y="-8.85" radius="0.25" width="0" layer="21"/>
+<pad name="3" x="-5.5" y="0" drill="2.7" diameter="2.9" shape="long"/>
+<pad name="4" x="5.5" y="0" drill="2.7" diameter="2.9" shape="long"/>
+<pad name="1" x="-2.5" y="7" drill="1" diameter="1.55"/>
+<pad name="2" x="2.5" y="7" drill="1" diameter="1.55"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1" diameter="1.55" shape="square"/>
+<pad name="C" x="0" y="-7.5" drill="1" diameter="1.55"/>
+<pad name="B" x="2.5" y="-7.5" drill="1" diameter="1.55"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ALPS_EC11E1820402_0_0">
+<description>Incremental Type Encoder, 11mm Size Metal Shaft Type EC11</description>
+<wire x1="2.54" y1="-20.32" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-5.08" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="20.32" y2="-15.24" width="0.15" layer="94"/>
+<wire x1="20.32" y1="-17.78" x2="20.32" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.15" layer="94"/>
+<text x="2.54" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.54" y="-22.86" size="2.54" layer="95" align="top-left">EC11E1820402</text>
+<pin name="DUMMY_1" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="DUMMY_2" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="MNT_1" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="MNT_2" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="A" x="-2.54" y="-7.62" length="middle"/>
+<pin name="C" x="-2.54" y="-12.7" length="middle"/>
+<pin name="B" x="-2.54" y="-10.16" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ALPS_EC11E1820402" prefix="U">
+<description>Incremental Type Encoder, 11mm Size Metal Shaft Type EC11</description>
+<gates>
+<gate name="G$0" symbol="ALPS_EC11E1820402_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ALPS_EC11E1820402_0_0" package="ALPS_EC11E1820402_0">
+<connects>
+<connect gate="G$0" pin="A" pad="A"/>
+<connect gate="G$0" pin="B" pad="B"/>
+<connect gate="G$0" pin="C" pad="C"/>
+<connect gate="G$0" pin="DUMMY_1" pad="1"/>
+<connect gate="G$0" pin="DUMMY_2" pad="2"/>
+<connect gate="G$0" pin="MNT_1" pad="3"/>
+<connect gate="G$0" pin="MNT_2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="CURRENT_RATING" value="10mA"/>
+<attribute name="DATASHEET" value="http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E1820402.html"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MF" value="ALPS"/>
+<attribute name="MOUSER_PART_NUMBER" value="688-EC11E1820402"/>
+<attribute name="MPN" value="EC11E1820402"/>
+<attribute name="NUMBER_OF_DETENT" value="36"/>
+<attribute name="NUMBER_OF_PULSE" value="18"/>
+<attribute name="OPERATING_LIFE" value="15000"/>
+<attribute name="PACKAGE" value="PTH_ENC_13MM5_11MM7"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+85°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-40°C"/>
+<attribute name="VOLTAGE" value="5VDC"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
