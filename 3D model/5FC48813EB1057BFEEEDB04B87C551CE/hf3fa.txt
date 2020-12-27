@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"HF3FA";"";
+"TraceParts.PartVersion";"1.0.1";"";
+"SUPPLIER";"Xiamen Hongfa Electroacoustic Co.,Ltd.";"";
+"MASS";"About 7.2";"";
+"TraceParts.PartNumber";"90-26092019-023037";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Power Relay HF3FA";"";
+"TraceParts.InstanceId";"90-26092019-02303742R82R7EIMCNB8PN8MVQ48BQC";"";
+"TraceParts.PartTitle";"Power Relay HF3FA";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"TraceParts.ClassPath";"SHANGHAI_1128329244:/F_HONGFA/HONGFA.010/HONGFA.010.010/90-26092019-023037";"";
+"TraceParts.PartStatus";"Published";"";
