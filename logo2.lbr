@@ -572,10 +572,27 @@
 <rectangle x1="16.05" y1="3.55" x2="16.15" y2="3.65" layer="25"/>
 <rectangle x1="15.95" y1="3.55" x2="16.05" y2="3.65" layer="25"/>
 </package>
+<package name="TRIMMER">
+<wire x1="0.07" y1="1.17" x2="0.07" y2="-0.13" width="0.127" layer="25"/>
+<wire x1="0.07" y1="-0.13" x2="0.8" y2="-0.13" width="0.127" layer="25"/>
+<wire x1="2.61" y1="1.17" x2="2.61" y2="0.57" width="0.127" layer="25"/>
+<wire x1="5.15" y1="1.17" x2="5.15" y2="-0.13" width="0.127" layer="25"/>
+<wire x1="4.4" y1="-0.13" x2="5.13" y2="-0.13" width="0.127" layer="25"/>
+<wire x1="0.8" y1="0.37" x2="0.8" y2="-0.63" width="0.127" layer="25"/>
+<wire x1="0.8" y1="-0.63" x2="4.35" y2="-0.63" width="0.127" layer="25"/>
+<wire x1="4.35" y1="-0.63" x2="4.35" y2="0.37" width="0.127" layer="25"/>
+<wire x1="4.35" y1="0.37" x2="0.8" y2="0.37" width="0.127" layer="25"/>
+<wire x1="2.6" y1="0.57" x2="4.3" y2="-1.13" width="0.127" layer="25"/>
+<wire x1="4.3" y1="-1.13" x2="4.3" y2="-0.83" width="0.127" layer="25"/>
+<wire x1="4.3" y1="-1.13" x2="4" y2="-1.13" width="0.127" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ELEKTROLAB">
 <text x="0" y="0" size="0.8128" layer="94" font="vector">elektrolab.eu</text>
+</symbol>
+<symbol name="TRIMMER">
+<text x="0" y="0" size="6.4516" layer="94">trimmer</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -585,6 +602,18 @@
 </gates>
 <devices>
 <device name="" package="ELEKTROLAB">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRIMMER">
+<gates>
+<gate name="G$1" symbol="TRIMMER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TRIMMER">
 <technologies>
 <technology name=""/>
 </technologies>
