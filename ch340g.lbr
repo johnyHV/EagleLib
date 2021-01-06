@@ -61,10 +61,10 @@
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
 16-Pin (150-Mil) SOIC&lt;br&gt;
 Source: http://www.cypress.com .. 38-12025_0P_V.pdf</description>
-<wire x1="4.79" y1="-1.795" x2="-4.79" y2="-1.795" width="0.2032" layer="51"/>
-<wire x1="-4.79" y1="-1.795" x2="-4.79" y2="1.795" width="0.2032" layer="51"/>
-<wire x1="-4.79" y1="1.795" x2="4.79" y2="1.795" width="0.2032" layer="51"/>
-<wire x1="4.79" y1="1.795" x2="4.79" y2="-1.795" width="0.2032" layer="51"/>
+<wire x1="4.79" y1="-1.795" x2="-4.79" y2="-1.795" width="0.2032" layer="21"/>
+<wire x1="-4.79" y1="-1.795" x2="-4.79" y2="1.795" width="0.2032" layer="21"/>
+<wire x1="-4.79" y1="1.795" x2="4.79" y2="1.795" width="0.2032" layer="21"/>
+<wire x1="4.79" y1="1.795" x2="4.79" y2="-1.795" width="0.2032" layer="21"/>
 <circle x="-4.05" y="-0.995" radius="0.3256" width="0.2032" layer="21"/>
 <smd name="2" x="-3.175" y="-2.695" dx="0.635" dy="1.524" layer="1"/>
 <smd name="13" x="-0.635" y="2.695" dx="0.635" dy="1.524" layer="1"/>
